@@ -1,0 +1,6395 @@
+{
+  "dateRule": {
+    "dates": [],
+    "end": "2026-08-31",
+    "mode": "range",
+    "start": "2026-06-17",
+    "weekday": "6"
+  },
+  "groups": [
+    {
+      "fetch": true,
+      "id": "g_near",
+      "name": "相近飯店"
+    },
+    {
+      "fetch": false,
+      "id": "g_star",
+      "name": "知名飯店"
+    },
+    {
+      "fetch": false,
+      "id": "g1781693754293",
+      "name": "沒事參考用"
+    }
+  ],
+  "hotels": [
+    {
+      "groupId": "g_near",
+      "id": "h1781690700809",
+      "name": "柔美精品商旅",
+      "url": "https://www.booking.com/hotel/tw/roumei-boutique.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690869222",
+      "name": "金來商旅",
+      "url": "https://www.booking.com/hotel/tw/royal-biz-taipei.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690749802",
+      "name": "喜瑞飯店",
+      "url": "https://www.booking.com/hotel/tw/ambience-taipei.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690765458",
+      "name": "天雲旅棧 台北中山",
+      "url": "https://www.booking.com/hotel/tw/tian-yun-lu-zhan-tai-bei-zhong-shan.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690844855",
+      "name": "丹迪旅店-天津店",
+      "url": "https://www.booking.com/hotel/tw/dandy-hotel-tianjin-branch.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690761891",
+      "name": "Oani",
+      "url": "https://www.booking.com/hotel/tw/oasis.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690849503",
+      "name": "富驛時尚酒店- 南京東路館",
+      "url": "https://www.booking.com/hotel/tw/fx-nanjingeast.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781693458738",
+      "name": "洛碁大飯店建北館",
+      "url": "https://www.booking.com/hotel/tw/green-world-jian-pei-suites.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781693455783",
+      "name": "洛碁大飯店南京館",
+      "url": "https://www.booking.com/hotel/tw/green-world-grand-nanjing.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690943530",
+      "name": "洛碁大飯店舞衣南京館",
+      "url": "https://www.booking.com/hotel/tw/mai-nanjing-road.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690758456",
+      "name": "老爺會館台北南西-中山站",
+      "url": "https://www.booking.com/hotel/tw/royal-inn.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690881280",
+      "name": "老爺會館台北林森 – 華山文創園區",
+      "url": "https://www.booking.com/hotel/tw/royal-inn-taipei-linsen.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690727443",
+      "name": "正旅館 藍",
+      "url": "https://www.booking.com/hotel/tw/the-blue-by-just-inn-zheng-lu-guan-lan.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690855439",
+      "name": "台北唯客樂飯店",
+      "url": "https://www.booking.com/hotel/tw/waikoloa-hotel.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690949130",
+      "name": "家美瑞品 台北 - Jiamei Hotel",
+      "url": "https://www.booking.com/hotel/tw/jia-mei-rui-pin.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690794954",
+      "name": "昇美精品旅店",
+      "url": "https://www.booking.com/hotel/tw/hotel-bchic.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690865928",
+      "name": "碩美飯店 - 自助機臺入住",
+      "url": "https://www.booking.com/hotel/tw/shuo-mei-jing-pin-lu-dian.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690840490",
+      "name": "尚美精旅愛行旅",
+      "url": "https://www.booking.com/hotel/tw/i-journey.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690920114",
+      "name": "城市商旅- 南西館",
+      "url": "https://www.booking.com/hotel/tw/citysuites-taipeinanxi.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690894746",
+      "name": "城市商旅- 南東館",
+      "url": "https://www.booking.com/hotel/tw/cheng-shi-shang-lu.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690904242",
+      "name": "台北漢普頓酒店",
+      "url": "https://www.booking.com/hotel/tw/bao-pu-da-fan-dian-tai-bei.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690877477",
+      "name": "台北馥華商旅 松江館",
+      "url": "https://www.booking.com/hotel/tw/forward.zh-tw.html"
+    },
+    {
+      "groupId": "g_star",
+      "id": "h1781690754723",
+      "name": "天閣酒店台北長安",
+      "url": "https://www.booking.com/hotel/tw/the-tango-taipei-changan.zh-tw.html"
+    },
+    {
+      "groupId": "g_star",
+      "id": "h1781690783986",
+      "name": "天閣酒店台北士林",
+      "url": "https://www.booking.com/hotel/tw/the-tango-taipei-shilin.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690897562",
+      "name": "柯達大飯店台北一店",
+      "url": "https://www.booking.com/hotel/tw/ke-da-da-fan-dian-tai-bei-dian.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690891862",
+      "name": "柯達大飯店台北二店",
+      "url": "https://www.booking.com/hotel/tw/k-taipei-ii.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690874008",
+      "name": "台北俞美精品飯店",
+      "url": "https://www.booking.com/hotel/tw/beauty-hotels-taipei-b6.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690923002",
+      "name": "星美休閒飯店",
+      "url": "https://www.booking.com/hotel/tw/star-beauty-resort.zh-tw.html"
+    },
+    {
+      "groupId": "g1781693754293",
+      "id": "h1781690900999",
+      "name": "Simple+ 飯店",
+      "url": "https://www.booking.com/hotel/tw/simple-plus-hotel.zh-tw.html"
+    },
+    {
+      "groupId": "g1781693754293",
+      "id": "h1781690888274",
+      "name": "在家行旅 南西館",
+      "url": "https://www.booking.com/hotel/tw/191lu-dian-zhu-xia-fen-guan.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781693473140",
+      "name": "日野苑",
+      "url": "https://www.booking.com/hotel/tw/taipei-see-you.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690884942",
+      "name": "松河璞旅",
+      "url": "https://www.booking.com/hotel/tw/song-he-pu-lu.zh-tw.html"
+    },
+    {
+      "groupId": "g1781693754293",
+      "id": "h1781690859208",
+      "name": "朵兒韓國汗蒸商務旅館",
+      "url": "https://www.booking.com/hotel/tw/duo-er-dorhotel.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690913475",
+      "name": "新驛旅店台北車站二館",
+      "url": "https://www.booking.com/hotel/tw/cityinn-2.zh-tw.html"
+    },
+    {
+      "groupId": "g_near",
+      "id": "h1781690909889",
+      "name": "新驛旅店台北車站三館",
+      "url": "https://www.booking.com/hotel/tw/cityinn-3.zh-tw.html"
+    },
+    {
+      "groupId": "g_star",
+      "id": "h1781690787058",
+      "name": "和逸飯店．台北民生館",
+      "url": "https://www.booking.com/hotel/tw/hotel-cozzi-minsheng-taipei.zh-tw.html"
+    },
+    {
+      "groupId": "g_star",
+      "id": "h1781690906835",
+      "name": "金普頓大安酒店 - 洲際酒店集團酒店",
+      "url": "https://www.booking.com/hotel/tw/kimpton-da-an.zh-tw.html"
+    },
+    {
+      "groupId": "g_star",
+      "id": "h1781690917255",
+      "name": "台北商旅-慶城館",
+      "url": "https://www.booking.com/hotel/tw/lessuitescc.zh-tw.html"
+    },
+    {
+      "groupId": "g_star",
+      "id": "h1781690952618",
+      "name": "梧邸酒店 台北杭州",
+      "url": "https://www.booking.com/hotel/tw/que-ke-lu-guan-tai-bei-hang-zhou-zhong-zheng-qu1.zh-tw.html"
+    },
+    {
+      "groupId": "g_star",
+      "id": "h1781690946385",
+      "name": "阿樹國際旅店",
+      "url": "https://www.booking.com/hotel/tw/artree-international.zh-tw.html"
+    }
+  ],
+  "results": {
+    "h1781690700809|2026-06-17": [
+      {
+        "ok": true,
+        "price": 1979,
+        "soldOut": false,
+        "ts": 1781696895572
+      }
+    ],
+    "h1781690700809|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2219,
+        "soldOut": false,
+        "ts": 1781690991573
+      },
+      {
+        "ok": true,
+        "price": 2219,
+        "soldOut": false,
+        "ts": 1781691676603
+      },
+      {
+        "ok": true,
+        "price": 2219,
+        "soldOut": false,
+        "ts": 1781692353205
+      },
+      {
+        "ok": true,
+        "price": 2219,
+        "soldOut": false,
+        "ts": 1781694041131
+      },
+      {
+        "ok": true,
+        "price": 2219,
+        "soldOut": false,
+        "ts": 1781696902370
+      }
+    ],
+    "h1781690700809|2026-06-19": [
+      {
+        "ok": true,
+        "price": 3869,
+        "soldOut": false,
+        "ts": 1781690999984
+      },
+      {
+        "ok": true,
+        "price": 3869,
+        "soldOut": false,
+        "ts": 1781691686643
+      },
+      {
+        "ok": true,
+        "price": 3869,
+        "soldOut": false,
+        "ts": 1781692365502
+      },
+      {
+        "ok": true,
+        "price": 3869,
+        "soldOut": false,
+        "ts": 1781694048631
+      },
+      {
+        "ok": true,
+        "price": 3869,
+        "soldOut": false,
+        "ts": 1781696909378
+      }
+    ],
+    "h1781690700809|2026-06-20": [
+      {
+        "ok": true,
+        "price": 4049,
+        "soldOut": false,
+        "ts": 1781691008606
+      },
+      {
+        "ok": true,
+        "price": 4049,
+        "soldOut": false,
+        "ts": 1781691697265
+      },
+      {
+        "ok": true,
+        "price": 4049,
+        "soldOut": false,
+        "ts": 1781692378920
+      },
+      {
+        "ok": true,
+        "price": 4049,
+        "soldOut": false,
+        "ts": 1781694056361
+      },
+      {
+        "ok": true,
+        "price": 4049,
+        "soldOut": false,
+        "ts": 1781696916547
+      }
+    ],
+    "h1781690700809|2026-06-21": [
+      {
+        "ok": true,
+        "price": 2219,
+        "soldOut": false,
+        "ts": 1781691016563
+      },
+      {
+        "ok": true,
+        "price": 2219,
+        "soldOut": false,
+        "ts": 1781691708093
+      },
+      {
+        "ok": true,
+        "price": 2219,
+        "soldOut": false,
+        "ts": 1781692400695
+      },
+      {
+        "ok": true,
+        "price": 2219,
+        "soldOut": false,
+        "ts": 1781694064855
+      },
+      {
+        "ok": true,
+        "price": 2219,
+        "soldOut": false,
+        "ts": 1781696923941
+      }
+    ],
+    "h1781690700809|2026-06-22": [
+      {
+        "ok": true,
+        "price": 1979,
+        "soldOut": false,
+        "ts": 1781696931550
+      }
+    ],
+    "h1781690700809|2026-06-23": [
+      {
+        "ok": true,
+        "price": 1979,
+        "soldOut": false,
+        "ts": 1781696939220
+      }
+    ],
+    "h1781690700809|2026-06-24": [
+      {
+        "ok": true,
+        "price": 2219,
+        "soldOut": false,
+        "ts": 1781696946200
+      }
+    ],
+    "h1781690700809|2026-06-25": [
+      {
+        "ok": true,
+        "price": 1979,
+        "soldOut": false,
+        "ts": 1781696953065
+      }
+    ],
+    "h1781690700809|2026-06-26": [
+      {
+        "ok": true,
+        "price": 3839,
+        "soldOut": false,
+        "ts": 1781696959940
+      }
+    ],
+    "h1781690700809|2026-06-27": [
+      {
+        "ok": true,
+        "price": 5119,
+        "soldOut": false,
+        "ts": 1781696966930
+      }
+    ],
+    "h1781690700809|2026-06-28": [
+      {
+        "ok": true,
+        "price": 1979,
+        "soldOut": false,
+        "ts": 1781696973815
+      }
+    ],
+    "h1781690700809|2026-06-29": [
+      {
+        "ok": true,
+        "price": 1979,
+        "soldOut": false,
+        "ts": 1781696981256
+      }
+    ],
+    "h1781690700809|2026-06-30": [
+      {
+        "ok": true,
+        "price": 1979,
+        "soldOut": false,
+        "ts": 1781696988705
+      }
+    ],
+    "h1781690700809|2026-07-01": [
+      {
+        "ok": true,
+        "price": 1979,
+        "soldOut": false,
+        "ts": 1781696996235
+      }
+    ],
+    "h1781690700809|2026-07-02": [
+      {
+        "ok": true,
+        "price": 2129,
+        "soldOut": false,
+        "ts": 1781697003604
+      }
+    ],
+    "h1781690700809|2026-07-03": [
+      {
+        "ok": true,
+        "price": 3239,
+        "soldOut": false,
+        "ts": 1781697010594
+      }
+    ],
+    "h1781690700809|2026-07-04": [
+      {
+        "ok": true,
+        "price": 5119,
+        "soldOut": false,
+        "ts": 1781697017395
+      }
+    ],
+    "h1781690700809|2026-07-05": [
+      {
+        "ok": true,
+        "price": 2159,
+        "soldOut": false,
+        "ts": 1781697024293
+      }
+    ],
+    "h1781690700809|2026-07-06": [
+      {
+        "ok": true,
+        "price": 1889,
+        "soldOut": false,
+        "ts": 1781697031649
+      }
+    ],
+    "h1781690700809|2026-07-07": [
+      {
+        "ok": true,
+        "price": 1889,
+        "soldOut": false,
+        "ts": 1781697038651
+      }
+    ],
+    "h1781690700809|2026-07-08": [
+      {
+        "ok": true,
+        "price": 1889,
+        "soldOut": false,
+        "ts": 1781697045859
+      }
+    ],
+    "h1781690700809|2026-07-09": [
+      {
+        "ok": true,
+        "price": 1889,
+        "soldOut": false,
+        "ts": 1781697053395
+      }
+    ],
+    "h1781690700809|2026-07-10": [
+      {
+        "ok": true,
+        "price": 3309,
+        "soldOut": false,
+        "ts": 1781697060497
+      }
+    ],
+    "h1781690700809|2026-07-11": [
+      {
+        "ok": true,
+        "price": 5299,
+        "soldOut": false,
+        "ts": 1781697069017
+      }
+    ],
+    "h1781690700809|2026-07-12": [
+      {
+        "ok": true,
+        "price": 2159,
+        "soldOut": false,
+        "ts": 1781697076424
+      }
+    ],
+    "h1781690700809|2026-07-13": [
+      {
+        "ok": true,
+        "price": 2159,
+        "soldOut": false,
+        "ts": 1781697084601
+      }
+    ],
+    "h1781690700809|2026-07-14": [
+      {
+        "ok": true,
+        "price": 2159,
+        "soldOut": false,
+        "ts": 1781697092349
+      }
+    ],
+    "h1781690700809|2026-07-15": [
+      {
+        "ok": true,
+        "price": 2159,
+        "soldOut": false,
+        "ts": 1781697100157
+      }
+    ],
+    "h1781690700809|2026-07-16": [
+      {
+        "ok": true,
+        "price": 2159,
+        "soldOut": false,
+        "ts": 1781697108271
+      }
+    ],
+    "h1781690700809|2026-07-17": [
+      {
+        "ok": true,
+        "price": 3149,
+        "soldOut": false,
+        "ts": 1781697115376
+      }
+    ],
+    "h1781690700809|2026-07-18": [
+      {
+        "ok": true,
+        "price": 5299,
+        "soldOut": false,
+        "ts": 1781697122417
+      }
+    ],
+    "h1781690700809|2026-07-19": [
+      {
+        "ok": true,
+        "price": 2609,
+        "soldOut": false,
+        "ts": 1781697129382
+      }
+    ],
+    "h1781690700809|2026-07-20": [
+      {
+        "ok": true,
+        "price": 1979,
+        "soldOut": false,
+        "ts": 1781697136495
+      }
+    ],
+    "h1781690700809|2026-07-21": [
+      {
+        "ok": true,
+        "price": 1979,
+        "soldOut": false,
+        "ts": 1781697143847
+      }
+    ],
+    "h1781690700809|2026-07-22": [
+      {
+        "ok": true,
+        "price": 1979,
+        "soldOut": false,
+        "ts": 1781697151561
+      }
+    ],
+    "h1781690700809|2026-07-23": [
+      {
+        "ok": true,
+        "price": 1979,
+        "soldOut": false,
+        "ts": 1781697159237
+      }
+    ],
+    "h1781690700809|2026-07-24": [
+      {
+        "ok": true,
+        "price": 2699,
+        "soldOut": false,
+        "ts": 1781697166866
+      }
+    ],
+    "h1781690700809|2026-07-25": [
+      {
+        "ok": true,
+        "price": 4499,
+        "soldOut": false,
+        "ts": 1781697174313
+      }
+    ],
+    "h1781690700809|2026-07-26": [
+      {
+        "ok": true,
+        "price": 2399,
+        "soldOut": false,
+        "ts": 1781697181295
+      }
+    ],
+    "h1781690700809|2026-07-27": [
+      {
+        "ok": true,
+        "price": 2159,
+        "soldOut": false,
+        "ts": 1781697188417
+      }
+    ],
+    "h1781690700809|2026-07-28": [
+      {
+        "ok": true,
+        "price": 2159,
+        "soldOut": false,
+        "ts": 1781697196183
+      }
+    ],
+    "h1781690700809|2026-07-29": [
+      {
+        "ok": true,
+        "price": 2159,
+        "soldOut": false,
+        "ts": 1781697203545
+      }
+    ],
+    "h1781690700809|2026-07-30": [
+      {
+        "ok": true,
+        "price": 2159,
+        "soldOut": false,
+        "ts": 1781697211858
+      }
+    ],
+    "h1781690700809|2026-07-31": [
+      {
+        "ok": true,
+        "price": 2699,
+        "soldOut": false,
+        "ts": 1781697219284
+      }
+    ],
+    "h1781690700809|2026-08-01": [
+      {
+        "ok": true,
+        "price": 3647,
+        "soldOut": false,
+        "ts": 1781697226666
+      }
+    ],
+    "h1781690700809|2026-08-02": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697233960
+      }
+    ],
+    "h1781690700809|2026-08-03": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697241416
+      }
+    ],
+    "h1781690700809|2026-08-04": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697248885
+      }
+    ],
+    "h1781690700809|2026-08-05": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697255945
+      }
+    ],
+    "h1781690700809|2026-08-06": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697263332
+      }
+    ],
+    "h1781690700809|2026-08-07": [
+      {
+        "ok": true,
+        "price": 2878,
+        "soldOut": false,
+        "ts": 1781697270917
+      }
+    ],
+    "h1781690700809|2026-08-08": [
+      {
+        "ok": true,
+        "price": null,
+        "soldOut": true,
+        "ts": 1781697277596
+      }
+    ],
+    "h1781690700809|2026-08-09": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697284639
+      }
+    ],
+    "h1781690700809|2026-08-10": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697292155
+      }
+    ],
+    "h1781690700809|2026-08-11": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697299581
+      }
+    ],
+    "h1781690700809|2026-08-12": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697308950
+      }
+    ],
+    "h1781690700809|2026-08-13": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697316720
+      }
+    ],
+    "h1781690700809|2026-08-14": [
+      {
+        "ok": true,
+        "price": 2878,
+        "soldOut": false,
+        "ts": 1781697324703
+      }
+    ],
+    "h1781690700809|2026-08-15": [
+      {
+        "ok": true,
+        "price": 3647,
+        "soldOut": false,
+        "ts": 1781697333458
+      }
+    ],
+    "h1781690700809|2026-08-16": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697341593
+      }
+    ],
+    "h1781690700809|2026-08-17": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697350301
+      }
+    ],
+    "h1781690700809|2026-08-18": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697358531
+      }
+    ],
+    "h1781690700809|2026-08-19": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697366643
+      }
+    ],
+    "h1781690700809|2026-08-20": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697373707
+      }
+    ],
+    "h1781690700809|2026-08-21": [
+      {
+        "ok": true,
+        "price": 2878,
+        "soldOut": false,
+        "ts": 1781697382576
+      }
+    ],
+    "h1781690700809|2026-08-22": [
+      {
+        "ok": true,
+        "price": 3647,
+        "soldOut": false,
+        "ts": 1781697390521
+      }
+    ],
+    "h1781690700809|2026-08-23": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697398593
+      }
+    ],
+    "h1781690700809|2026-08-24": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697406565
+      }
+    ],
+    "h1781690700809|2026-08-25": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697413885
+      }
+    ],
+    "h1781690700809|2026-08-26": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697421257
+      }
+    ],
+    "h1781690700809|2026-08-27": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697428696
+      }
+    ],
+    "h1781690700809|2026-08-28": [
+      {
+        "ok": true,
+        "price": 2878,
+        "soldOut": false,
+        "ts": 1781697435938
+      }
+    ],
+    "h1781690700809|2026-08-29": [
+      {
+        "ok": true,
+        "price": 3647,
+        "soldOut": false,
+        "ts": 1781697443082
+      }
+    ],
+    "h1781690700809|2026-08-30": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697450283
+      }
+    ],
+    "h1781690700809|2026-08-31": [
+      {
+        "ok": true,
+        "price": 2108,
+        "soldOut": false,
+        "ts": 1781697457536
+      }
+    ],
+    "h1781690727443|2026-06-18": [
+      {
+        "ok": false,
+        "price": null,
+        "soldOut": false,
+        "ts": 1781691018071
+      },
+      {
+        "ok": true,
+        "price": 3286,
+        "soldOut": false,
+        "ts": 1781691715858
+      },
+      {
+        "ok": true,
+        "price": 3286,
+        "soldOut": false,
+        "ts": 1781692419706
+      },
+      {
+        "ok": true,
+        "price": 3408,
+        "soldOut": false,
+        "ts": 1781694487597
+      }
+    ],
+    "h1781690727443|2026-06-19": [
+      {
+        "ok": true,
+        "price": 4872,
+        "soldOut": false,
+        "ts": 1781691025724
+      },
+      {
+        "ok": true,
+        "price": 4872,
+        "soldOut": false,
+        "ts": 1781691725424
+      },
+      {
+        "ok": true,
+        "price": 4872,
+        "soldOut": false,
+        "ts": 1781692433922
+      },
+      {
+        "ok": true,
+        "price": 4872,
+        "soldOut": false,
+        "ts": 1781694497124
+      }
+    ],
+    "h1781690727443|2026-06-20": [
+      {
+        "ok": true,
+        "price": 5167,
+        "soldOut": false,
+        "ts": 1781691034575
+      },
+      {
+        "ok": true,
+        "price": 5167,
+        "soldOut": false,
+        "ts": 1781691734747
+      },
+      {
+        "ok": true,
+        "price": 5167,
+        "soldOut": false,
+        "ts": 1781692445871
+      },
+      {
+        "ok": true,
+        "price": 5167,
+        "soldOut": false,
+        "ts": 1781694506655
+      }
+    ],
+    "h1781690727443|2026-06-21": [
+      {
+        "ok": true,
+        "price": 1785,
+        "soldOut": false,
+        "ts": 1781691043763
+      },
+      {
+        "ok": true,
+        "price": 1785,
+        "soldOut": false,
+        "ts": 1781691747704
+      },
+      {
+        "ok": true,
+        "price": 1785,
+        "soldOut": false,
+        "ts": 1781692459034
+      },
+      {
+        "ok": true,
+        "price": 1785,
+        "soldOut": false,
+        "ts": 1781694517815
+      }
+    ],
+    "h1781690749802|2026-06-17": [
+      {
+        "ok": true,
+        "price": 3055,
+        "soldOut": false,
+        "ts": 1781698146191
+      }
+    ],
+    "h1781690749802|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2860,
+        "soldOut": false,
+        "ts": 1781691052013
+      },
+      {
+        "ok": true,
+        "price": 4210,
+        "soldOut": false,
+        "ts": 1781691759081
+      },
+      {
+        "ok": true,
+        "price": 2860,
+        "soldOut": false,
+        "ts": 1781692472081
+      },
+      {
+        "ok": true,
+        "price": 2860,
+        "soldOut": false,
+        "ts": 1781694110664
+      },
+      {
+        "ok": true,
+        "price": 2860,
+        "soldOut": false,
+        "ts": 1781698155097
+      }
+    ],
+    "h1781690749802|2026-06-19": [
+      {
+        "ok": true,
+        "price": 4940,
+        "soldOut": false,
+        "ts": 1781691060549
+      },
+      {
+        "ok": true,
+        "price": 4940,
+        "soldOut": false,
+        "ts": 1781691769714
+      },
+      {
+        "ok": true,
+        "price": 4940,
+        "soldOut": false,
+        "ts": 1781692485337
+      },
+      {
+        "ok": true,
+        "price": 4940,
+        "soldOut": false,
+        "ts": 1781694120449
+      },
+      {
+        "ok": true,
+        "price": 4940,
+        "soldOut": false,
+        "ts": 1781698164223
+      }
+    ],
+    "h1781690749802|2026-06-20": [
+      {
+        "ok": true,
+        "price": 5720,
+        "soldOut": false,
+        "ts": 1781691070606
+      },
+      {
+        "ok": true,
+        "price": 5720,
+        "soldOut": false,
+        "ts": 1781691780322
+      },
+      {
+        "ok": true,
+        "price": 5720,
+        "soldOut": false,
+        "ts": 1781692500072
+      },
+      {
+        "ok": true,
+        "price": 5720,
+        "soldOut": false,
+        "ts": 1781694130618
+      },
+      {
+        "ok": true,
+        "price": 5720,
+        "soldOut": false,
+        "ts": 1781698173352
+      }
+    ],
+    "h1781690749802|2026-06-21": [
+      {
+        "ok": true,
+        "price": 3120,
+        "soldOut": false,
+        "ts": 1781691078166
+      },
+      {
+        "ok": true,
+        "price": 3120,
+        "soldOut": false,
+        "ts": 1781691791103
+      },
+      {
+        "ok": true,
+        "price": 3120,
+        "soldOut": false,
+        "ts": 1781692518098
+      },
+      {
+        "ok": true,
+        "price": 3120,
+        "soldOut": false,
+        "ts": 1781694141632
+      },
+      {
+        "ok": true,
+        "price": 3120,
+        "soldOut": false,
+        "ts": 1781698182319
+      }
+    ],
+    "h1781690749802|2026-06-22": [
+      {
+        "ok": true,
+        "price": 3120,
+        "soldOut": false,
+        "ts": 1781698190206
+      }
+    ],
+    "h1781690749802|2026-06-23": [
+      {
+        "ok": true,
+        "price": 3250,
+        "soldOut": false,
+        "ts": 1781698198908
+      }
+    ],
+    "h1781690749802|2026-06-24": [
+      {
+        "ok": true,
+        "price": 3705,
+        "soldOut": false,
+        "ts": 1781698208219
+      }
+    ],
+    "h1781690749802|2026-06-25": [
+      {
+        "ok": true,
+        "price": 3965,
+        "soldOut": false,
+        "ts": 1781698216784
+      }
+    ],
+    "h1781690749802|2026-06-26": [
+      {
+        "ok": true,
+        "price": 4875,
+        "soldOut": false,
+        "ts": 1781698225341
+      }
+    ],
+    "h1781690749802|2026-06-27": [
+      {
+        "ok": true,
+        "price": 5850,
+        "soldOut": false,
+        "ts": 1781698235037
+      }
+    ],
+    "h1781690749802|2026-06-28": [
+      {
+        "ok": true,
+        "price": 3445,
+        "soldOut": false,
+        "ts": 1781698244081
+      }
+    ],
+    "h1781690749802|2026-06-29": [
+      {
+        "ok": true,
+        "price": 3315,
+        "soldOut": false,
+        "ts": 1781698253051
+      }
+    ],
+    "h1781690749802|2026-06-30": [
+      {
+        "ok": true,
+        "price": 3315,
+        "soldOut": false,
+        "ts": 1781698263356
+      }
+    ],
+    "h1781690749802|2026-07-01": [
+      {
+        "ok": true,
+        "price": 3420,
+        "soldOut": false,
+        "ts": 1781698271842
+      }
+    ],
+    "h1781690749802|2026-07-02": [
+      {
+        "ok": true,
+        "price": 3600,
+        "soldOut": false,
+        "ts": 1781698281366
+      }
+    ],
+    "h1781690749802|2026-07-03": [
+      {
+        "ok": true,
+        "price": 5040,
+        "soldOut": false,
+        "ts": 1781698291333
+      }
+    ],
+    "h1781690749802|2026-07-04": [
+      {
+        "ok": true,
+        "price": 5820,
+        "soldOut": false,
+        "ts": 1781698300891
+      }
+    ],
+    "h1781690749802|2026-07-05": [
+      {
+        "ok": true,
+        "price": 3780,
+        "soldOut": false,
+        "ts": 1781698309695
+      }
+    ],
+    "h1781690749802|2026-07-06": [
+      {
+        "ok": true,
+        "price": 3300,
+        "soldOut": false,
+        "ts": 1781698318788
+      }
+    ],
+    "h1781690749802|2026-07-07": [
+      {
+        "ok": true,
+        "price": 3300,
+        "soldOut": false,
+        "ts": 1781698327169
+      }
+    ],
+    "h1781690749802|2026-07-08": [
+      {
+        "ok": true,
+        "price": 3300,
+        "soldOut": false,
+        "ts": 1781698336338
+      }
+    ],
+    "h1781690749802|2026-07-09": [
+      {
+        "ok": true,
+        "price": 3300,
+        "soldOut": false,
+        "ts": 1781698345134
+      }
+    ],
+    "h1781690749802|2026-07-10": [
+      {
+        "ok": true,
+        "price": 4680,
+        "soldOut": false,
+        "ts": 1781698354261
+      }
+    ],
+    "h1781690749802|2026-07-11": [
+      {
+        "ok": true,
+        "price": 5820,
+        "soldOut": false,
+        "ts": 1781698363043
+      }
+    ],
+    "h1781690749802|2026-07-12": [
+      {
+        "ok": true,
+        "price": 3480,
+        "soldOut": false,
+        "ts": 1781698371634
+      }
+    ],
+    "h1781690749802|2026-07-13": [
+      {
+        "ok": true,
+        "price": 3480,
+        "soldOut": false,
+        "ts": 1781698380325
+      }
+    ],
+    "h1781690749802|2026-07-14": [
+      {
+        "ok": true,
+        "price": 3480,
+        "soldOut": false,
+        "ts": 1781698388950
+      }
+    ],
+    "h1781690749802|2026-07-15": [
+      {
+        "ok": true,
+        "price": 3480,
+        "soldOut": false,
+        "ts": 1781698397468
+      }
+    ],
+    "h1781690749802|2026-07-16": [
+      {
+        "ok": true,
+        "price": 3480,
+        "soldOut": false,
+        "ts": 1781698406073
+      }
+    ],
+    "h1781690749802|2026-07-17": [
+      {
+        "ok": true,
+        "price": 4680,
+        "soldOut": false,
+        "ts": 1781698415377
+      }
+    ],
+    "h1781690749802|2026-07-18": [
+      {
+        "ok": true,
+        "price": 5820,
+        "soldOut": false,
+        "ts": 1781698424654
+      }
+    ],
+    "h1781690749802|2026-07-19": [
+      {
+        "ok": true,
+        "price": 3480,
+        "soldOut": false,
+        "ts": 1781698434584
+      }
+    ],
+    "h1781690749802|2026-07-20": [
+      {
+        "ok": true,
+        "price": 3480,
+        "soldOut": false,
+        "ts": 1781698443780
+      }
+    ],
+    "h1781690749802|2026-07-21": [
+      {
+        "ok": true,
+        "price": 3480,
+        "soldOut": false,
+        "ts": 1781698452650
+      }
+    ],
+    "h1781690749802|2026-07-22": [
+      {
+        "ok": true,
+        "price": 3480,
+        "soldOut": false,
+        "ts": 1781698462117
+      }
+    ],
+    "h1781690749802|2026-07-23": [
+      {
+        "ok": true,
+        "price": 3480,
+        "soldOut": false,
+        "ts": 1781698470013
+      }
+    ],
+    "h1781690749802|2026-07-24": [
+      {
+        "ok": true,
+        "price": 4680,
+        "soldOut": false,
+        "ts": 1781698478204
+      }
+    ],
+    "h1781690749802|2026-07-25": [
+      {
+        "ok": true,
+        "price": 5820,
+        "soldOut": false,
+        "ts": 1781698486190
+      }
+    ],
+    "h1781690749802|2026-07-26": [
+      {
+        "ok": true,
+        "price": 3480,
+        "soldOut": false,
+        "ts": 1781698494707
+      }
+    ],
+    "h1781690749802|2026-07-27": [
+      {
+        "ok": true,
+        "price": 3480,
+        "soldOut": false,
+        "ts": 1781698502795
+      }
+    ],
+    "h1781690749802|2026-07-28": [
+      {
+        "ok": true,
+        "price": 3480,
+        "soldOut": false,
+        "ts": 1781698511101
+      }
+    ],
+    "h1781690749802|2026-07-29": [
+      {
+        "ok": true,
+        "price": 3480,
+        "soldOut": false,
+        "ts": 1781698520198
+      }
+    ],
+    "h1781690749802|2026-07-30": [
+      {
+        "ok": true,
+        "price": 3480,
+        "soldOut": false,
+        "ts": 1781698529627
+      }
+    ],
+    "h1781690749802|2026-07-31": [
+      {
+        "ok": true,
+        "price": 4680,
+        "soldOut": false,
+        "ts": 1781698537581
+      }
+    ],
+    "h1781690749802|2026-08-01": [
+      {
+        "ok": true,
+        "price": 5820,
+        "soldOut": false,
+        "ts": 1781698545805
+      }
+    ],
+    "h1781690749802|2026-08-02": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698554988
+      }
+    ],
+    "h1781690749802|2026-08-03": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698563579
+      }
+    ],
+    "h1781690749802|2026-08-04": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698573421
+      }
+    ],
+    "h1781690749802|2026-08-05": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698582451
+      }
+    ],
+    "h1781690749802|2026-08-06": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698593466
+      }
+    ],
+    "h1781690749802|2026-08-07": [
+      {
+        "ok": true,
+        "price": 4680,
+        "soldOut": false,
+        "ts": 1781698603700
+      }
+    ],
+    "h1781690749802|2026-08-08": [
+      {
+        "ok": true,
+        "price": 5820,
+        "soldOut": false,
+        "ts": 1781698612863
+      }
+    ],
+    "h1781690749802|2026-08-09": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698621648
+      }
+    ],
+    "h1781690749802|2026-08-10": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698629946
+      }
+    ],
+    "h1781690749802|2026-08-11": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698638734
+      }
+    ],
+    "h1781690749802|2026-08-12": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698647316
+      }
+    ],
+    "h1781690749802|2026-08-13": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698655083
+      }
+    ],
+    "h1781690749802|2026-08-14": [
+      {
+        "ok": true,
+        "price": 4680,
+        "soldOut": false,
+        "ts": 1781698662963
+      }
+    ],
+    "h1781690749802|2026-08-15": [
+      {
+        "ok": true,
+        "price": 5820,
+        "soldOut": false,
+        "ts": 1781698671148
+      }
+    ],
+    "h1781690749802|2026-08-16": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698679155
+      }
+    ],
+    "h1781690749802|2026-08-17": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698688205
+      }
+    ],
+    "h1781690749802|2026-08-18": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698696627
+      }
+    ],
+    "h1781690749802|2026-08-19": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698704732
+      }
+    ],
+    "h1781690749802|2026-08-20": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698712779
+      }
+    ],
+    "h1781690749802|2026-08-21": [
+      {
+        "ok": true,
+        "price": 4680,
+        "soldOut": false,
+        "ts": 1781698721155
+      }
+    ],
+    "h1781690749802|2026-08-22": [
+      {
+        "ok": true,
+        "price": 5820,
+        "soldOut": false,
+        "ts": 1781698729109
+      }
+    ],
+    "h1781690749802|2026-08-23": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698738014
+      }
+    ],
+    "h1781690749802|2026-08-24": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698745949
+      }
+    ],
+    "h1781690749802|2026-08-25": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698754181
+      }
+    ],
+    "h1781690749802|2026-08-26": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698762857
+      }
+    ],
+    "h1781690749802|2026-08-27": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698773545
+      }
+    ],
+    "h1781690749802|2026-08-28": [
+      {
+        "ok": true,
+        "price": 4680,
+        "soldOut": false,
+        "ts": 1781698782382
+      }
+    ],
+    "h1781690749802|2026-08-29": [
+      {
+        "ok": true,
+        "price": 5820,
+        "soldOut": false,
+        "ts": 1781698791900
+      }
+    ],
+    "h1781690749802|2026-08-30": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698800425
+      }
+    ],
+    "h1781690749802|2026-08-31": [
+      {
+        "ok": true,
+        "price": 3720,
+        "soldOut": false,
+        "ts": 1781698807302
+      }
+    ],
+    "h1781690754723|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2808,
+        "soldOut": false,
+        "ts": 1781691087181
+      },
+      {
+        "ok": true,
+        "price": 2808,
+        "soldOut": false,
+        "ts": 1781691803220
+      },
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781692534509
+      }
+    ],
+    "h1781690754723|2026-06-19": [
+      {
+        "ok": true,
+        "price": 3823,
+        "soldOut": false,
+        "ts": 1781691094736
+      },
+      {
+        "ok": true,
+        "price": 3823,
+        "soldOut": false,
+        "ts": 1781691815372
+      },
+      {
+        "ok": true,
+        "price": 3411,
+        "soldOut": false,
+        "ts": 1781692549772
+      }
+    ],
+    "h1781690754723|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3855,
+        "soldOut": false,
+        "ts": 1781691102990
+      },
+      {
+        "ok": true,
+        "price": 3855,
+        "soldOut": false,
+        "ts": 1781691828576
+      },
+      {
+        "ok": true,
+        "price": 3855,
+        "soldOut": false,
+        "ts": 1781692564480
+      }
+    ],
+    "h1781690754723|2026-06-21": [
+      {
+        "ok": true,
+        "price": 3005,
+        "soldOut": false,
+        "ts": 1781691111268
+      },
+      {
+        "ok": true,
+        "price": 3005,
+        "soldOut": false,
+        "ts": 1781691842683
+      },
+      {
+        "ok": true,
+        "price": 2906,
+        "soldOut": false,
+        "ts": 1781692583479
+      }
+    ],
+    "h1781690758456|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2708,
+        "soldOut": false,
+        "ts": 1781691120149
+      },
+      {
+        "ok": true,
+        "price": 2708,
+        "soldOut": false,
+        "ts": 1781691854640
+      },
+      {
+        "ok": true,
+        "price": 2708,
+        "soldOut": false,
+        "ts": 1781694409640
+      }
+    ],
+    "h1781690758456|2026-06-19": [
+      {
+        "ok": true,
+        "price": 3356,
+        "soldOut": false,
+        "ts": 1781691128593
+      },
+      {
+        "ok": true,
+        "price": 3624,
+        "soldOut": false,
+        "ts": 1781691867574
+      },
+      {
+        "ok": true,
+        "price": 3624,
+        "soldOut": false,
+        "ts": 1781694419964
+      }
+    ],
+    "h1781690758456|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3644,
+        "soldOut": false,
+        "ts": 1781691137338
+      },
+      {
+        "ok": true,
+        "price": 3934,
+        "soldOut": false,
+        "ts": 1781691879144
+      },
+      {
+        "ok": true,
+        "price": 3934,
+        "soldOut": false,
+        "ts": 1781694429586
+      }
+    ],
+    "h1781690758456|2026-06-21": [
+      {
+        "ok": true,
+        "price": 2900,
+        "soldOut": false,
+        "ts": 1781691145218
+      },
+      {
+        "ok": true,
+        "price": 2647,
+        "soldOut": false,
+        "ts": 1781691891123
+      },
+      {
+        "ok": true,
+        "price": 2647,
+        "soldOut": false,
+        "ts": 1781694438425
+      }
+    ],
+    "h1781690761891|2026-06-17": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700216790
+      }
+    ],
+    "h1781690761891|2026-06-18": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781691153881
+      },
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781691902364
+      },
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781694222418
+      },
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700224778
+      }
+    ],
+    "h1781690761891|2026-06-19": [
+      {
+        "ok": true,
+        "price": 3000,
+        "soldOut": false,
+        "ts": 1781691161846
+      },
+      {
+        "ok": true,
+        "price": 3000,
+        "soldOut": false,
+        "ts": 1781691914405
+      },
+      {
+        "ok": true,
+        "price": 3000,
+        "soldOut": false,
+        "ts": 1781694231723
+      },
+      {
+        "ok": true,
+        "price": 3000,
+        "soldOut": false,
+        "ts": 1781700232409
+      }
+    ],
+    "h1781690761891|2026-06-20": [
+      {
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "ts": 1781691170664
+      },
+      {
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "ts": 1781691925180
+      },
+      {
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "ts": 1781694240464
+      },
+      {
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "ts": 1781700241413
+      }
+    ],
+    "h1781690761891|2026-06-21": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781691182720
+      },
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781691935661
+      },
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781694249505
+      },
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700248925
+      }
+    ],
+    "h1781690761891|2026-06-22": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700256966
+      }
+    ],
+    "h1781690761891|2026-06-23": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700264431
+      }
+    ],
+    "h1781690761891|2026-06-24": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700273945
+      }
+    ],
+    "h1781690761891|2026-06-25": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700281542
+      }
+    ],
+    "h1781690761891|2026-06-26": [
+      {
+        "ok": true,
+        "price": 1800,
+        "soldOut": false,
+        "ts": 1781700288982
+      }
+    ],
+    "h1781690761891|2026-06-27": [
+      {
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "ts": 1781700296403
+      }
+    ],
+    "h1781690761891|2026-06-28": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700303905
+      }
+    ],
+    "h1781690761891|2026-06-29": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700312710
+      }
+    ],
+    "h1781690761891|2026-06-30": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700320769
+      }
+    ],
+    "h1781690761891|2026-07-01": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700328458
+      }
+    ],
+    "h1781690761891|2026-07-02": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700336147
+      }
+    ],
+    "h1781690761891|2026-07-03": [
+      {
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "ts": 1781700345227
+      }
+    ],
+    "h1781690761891|2026-07-04": [
+      {
+        "ok": true,
+        "price": 3000,
+        "soldOut": false,
+        "ts": 1781700353713
+      }
+    ],
+    "h1781690761891|2026-07-05": [
+      {
+        "ok": true,
+        "price": 1800,
+        "soldOut": false,
+        "ts": 1781700362544
+      }
+    ],
+    "h1781690761891|2026-07-06": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700371592
+      }
+    ],
+    "h1781690761891|2026-07-07": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700380094
+      }
+    ],
+    "h1781690761891|2026-07-08": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700388908
+      }
+    ],
+    "h1781690761891|2026-07-09": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700397852
+      }
+    ],
+    "h1781690761891|2026-07-10": [
+      {
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "ts": 1781700405778
+      }
+    ],
+    "h1781690761891|2026-07-11": [
+      {
+        "ok": true,
+        "price": 3000,
+        "soldOut": false,
+        "ts": 1781700414195
+      }
+    ],
+    "h1781690761891|2026-07-12": [
+      {
+        "ok": true,
+        "price": 1800,
+        "soldOut": false,
+        "ts": 1781700421336
+      }
+    ],
+    "h1781690761891|2026-07-13": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700429203
+      }
+    ],
+    "h1781690761891|2026-07-14": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700437009
+      }
+    ],
+    "h1781690761891|2026-07-15": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700446408
+      }
+    ],
+    "h1781690761891|2026-07-16": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700454796
+      }
+    ],
+    "h1781690761891|2026-07-17": [
+      {
+        "ok": true,
+        "price": 1800,
+        "soldOut": false,
+        "ts": 1781700462542
+      }
+    ],
+    "h1781690761891|2026-07-18": [
+      {
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "ts": 1781700470565
+      }
+    ],
+    "h1781690761891|2026-07-19": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700478174
+      }
+    ],
+    "h1781690761891|2026-07-20": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700486082
+      }
+    ],
+    "h1781690761891|2026-07-21": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700493997
+      }
+    ],
+    "h1781690761891|2026-07-22": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700502048
+      }
+    ],
+    "h1781690761891|2026-07-23": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700511296
+      }
+    ],
+    "h1781690761891|2026-07-24": [
+      {
+        "ok": true,
+        "price": 1800,
+        "soldOut": false,
+        "ts": 1781700519203
+      }
+    ],
+    "h1781690761891|2026-07-25": [
+      {
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "ts": 1781700527091
+      }
+    ],
+    "h1781690761891|2026-07-26": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700535448
+      }
+    ],
+    "h1781690761891|2026-07-27": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700543075
+      }
+    ],
+    "h1781690761891|2026-07-28": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700551773
+      }
+    ],
+    "h1781690761891|2026-07-29": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700560021
+      }
+    ],
+    "h1781690761891|2026-07-30": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700568087
+      }
+    ],
+    "h1781690761891|2026-07-31": [
+      {
+        "ok": true,
+        "price": 1800,
+        "soldOut": false,
+        "ts": 1781700576418
+      }
+    ],
+    "h1781690761891|2026-08-01": [
+      {
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "ts": 1781700584038
+      }
+    ],
+    "h1781690761891|2026-08-02": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700591441
+      }
+    ],
+    "h1781690761891|2026-08-03": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700599663
+      }
+    ],
+    "h1781690761891|2026-08-04": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700607954
+      }
+    ],
+    "h1781690761891|2026-08-05": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700616622
+      }
+    ],
+    "h1781690761891|2026-08-06": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700624737
+      }
+    ],
+    "h1781690761891|2026-08-07": [
+      {
+        "ok": true,
+        "price": 1800,
+        "soldOut": false,
+        "ts": 1781700633216
+      }
+    ],
+    "h1781690761891|2026-08-08": [
+      {
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "ts": 1781700640697
+      }
+    ],
+    "h1781690761891|2026-08-09": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700648334
+      }
+    ],
+    "h1781690761891|2026-08-10": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700656554
+      }
+    ],
+    "h1781690761891|2026-08-11": [
+      {
+        "ok": true,
+        "price": 1800,
+        "soldOut": false,
+        "ts": 1781700664179
+      }
+    ],
+    "h1781690761891|2026-08-12": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700673085
+      }
+    ],
+    "h1781690761891|2026-08-13": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700681402
+      }
+    ],
+    "h1781690761891|2026-08-14": [
+      {
+        "ok": true,
+        "price": 1800,
+        "soldOut": false,
+        "ts": 1781700691286
+      }
+    ],
+    "h1781690761891|2026-08-15": [
+      {
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "ts": 1781700699929
+      }
+    ],
+    "h1781690761891|2026-08-16": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700708784
+      }
+    ],
+    "h1781690761891|2026-08-17": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700717906
+      }
+    ],
+    "h1781690761891|2026-08-18": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700725670
+      }
+    ],
+    "h1781690761891|2026-08-19": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700733976
+      }
+    ],
+    "h1781690761891|2026-08-20": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700741775
+      }
+    ],
+    "h1781690761891|2026-08-21": [
+      {
+        "ok": true,
+        "price": 1800,
+        "soldOut": false,
+        "ts": 1781700750231
+      }
+    ],
+    "h1781690761891|2026-08-22": [
+      {
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "ts": 1781700757658
+      }
+    ],
+    "h1781690761891|2026-08-23": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700766187
+      }
+    ],
+    "h1781690761891|2026-08-24": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700775037
+      }
+    ],
+    "h1781690761891|2026-08-25": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700782939
+      }
+    ],
+    "h1781690761891|2026-08-26": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700790837
+      }
+    ],
+    "h1781690761891|2026-08-27": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700799343
+      }
+    ],
+    "h1781690761891|2026-08-28": [
+      {
+        "ok": true,
+        "price": 1800,
+        "soldOut": false,
+        "ts": 1781700807287
+      }
+    ],
+    "h1781690761891|2026-08-29": [
+      {
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "ts": 1781700815567
+      }
+    ],
+    "h1781690761891|2026-08-30": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700823614
+      }
+    ],
+    "h1781690761891|2026-08-31": [
+      {
+        "ok": true,
+        "price": 1200,
+        "soldOut": false,
+        "ts": 1781700831948
+      }
+    ],
+    "h1781690765458|2026-06-17": [
+      {
+        "ok": true,
+        "price": 2842,
+        "soldOut": false,
+        "ts": 1781698816102
+      }
+    ],
+    "h1781690765458|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781691212185
+      },
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781691946213
+      },
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781694151160
+      },
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781698824777
+      }
+    ],
+    "h1781690765458|2026-06-19": [
+      {
+        "ok": true,
+        "price": 3411,
+        "soldOut": false,
+        "ts": 1781691245553
+      },
+      {
+        "ok": true,
+        "price": 3411,
+        "soldOut": false,
+        "ts": 1781691960496
+      },
+      {
+        "ok": true,
+        "price": 3411,
+        "soldOut": false,
+        "ts": 1781694160997
+      },
+      {
+        "ok": true,
+        "price": 3411,
+        "soldOut": false,
+        "ts": 1781698833354
+      }
+    ],
+    "h1781690765458|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3931,
+        "soldOut": false,
+        "ts": 1781691270983
+      },
+      {
+        "ok": true,
+        "price": 3855,
+        "soldOut": false,
+        "ts": 1781691974833
+      },
+      {
+        "ok": true,
+        "price": 3855,
+        "soldOut": false,
+        "ts": 1781694169997
+      },
+      {
+        "ok": true,
+        "price": 3931,
+        "soldOut": false,
+        "ts": 1781698841123
+      }
+    ],
+    "h1781690765458|2026-06-21": [
+      {
+        "ok": true,
+        "price": 2906,
+        "soldOut": false,
+        "ts": 1781691282090
+      },
+      {
+        "ok": true,
+        "price": 2906,
+        "soldOut": false,
+        "ts": 1781691986252
+      },
+      {
+        "ok": true,
+        "price": 2906,
+        "soldOut": false,
+        "ts": 1781694179388
+      },
+      {
+        "ok": true,
+        "price": 2906,
+        "soldOut": false,
+        "ts": 1781698849211
+      }
+    ],
+    "h1781690765458|2026-06-22": [
+      {
+        "ok": true,
+        "price": 2906,
+        "soldOut": false,
+        "ts": 1781698857981
+      }
+    ],
+    "h1781690765458|2026-06-23": [
+      {
+        "ok": true,
+        "price": 2906,
+        "soldOut": false,
+        "ts": 1781698867013
+      }
+    ],
+    "h1781690765458|2026-06-24": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781698875818
+      }
+    ],
+    "h1781690765458|2026-06-25": [
+      {
+        "ok": true,
+        "price": 3790,
+        "soldOut": false,
+        "ts": 1781698884133
+      }
+    ],
+    "h1781690765458|2026-06-26": [
+      {
+        "ok": true,
+        "price": 3601,
+        "soldOut": false,
+        "ts": 1781698893084
+      }
+    ],
+    "h1781690765458|2026-06-27": [
+      {
+        "ok": true,
+        "price": 4991,
+        "soldOut": false,
+        "ts": 1781698901691
+      }
+    ],
+    "h1781690765458|2026-06-28": [
+      {
+        "ok": true,
+        "price": 2463,
+        "soldOut": false,
+        "ts": 1781698910184
+      }
+    ],
+    "h1781690765458|2026-06-29": [
+      {
+        "ok": true,
+        "price": 2463,
+        "soldOut": false,
+        "ts": 1781698918774
+      }
+    ],
+    "h1781690765458|2026-06-30": [
+      {
+        "ok": true,
+        "price": 2463,
+        "soldOut": false,
+        "ts": 1781698927398
+      }
+    ],
+    "h1781690765458|2026-07-01": [
+      {
+        "ok": true,
+        "price": 2463,
+        "soldOut": false,
+        "ts": 1781698936913
+      }
+    ],
+    "h1781690765458|2026-07-02": [
+      {
+        "ok": true,
+        "price": 2463,
+        "soldOut": false,
+        "ts": 1781698945696
+      }
+    ],
+    "h1781690765458|2026-07-03": [
+      {
+        "ok": true,
+        "price": 3483,
+        "soldOut": false,
+        "ts": 1781698954223
+      }
+    ],
+    "h1781690765458|2026-07-04": [
+      {
+        "ok": true,
+        "price": 4485,
+        "soldOut": false,
+        "ts": 1781698962368
+      }
+    ],
+    "h1781690765458|2026-07-05": [
+      {
+        "ok": true,
+        "price": 2716,
+        "soldOut": false,
+        "ts": 1781698970543
+      }
+    ],
+    "h1781690765458|2026-07-06": [
+      {
+        "ok": true,
+        "price": 2463,
+        "soldOut": false,
+        "ts": 1781698979164
+      }
+    ],
+    "h1781690765458|2026-07-07": [
+      {
+        "ok": true,
+        "price": 2463,
+        "soldOut": false,
+        "ts": 1781698988358
+      }
+    ],
+    "h1781690765458|2026-07-08": [
+      {
+        "ok": true,
+        "price": 2716,
+        "soldOut": false,
+        "ts": 1781698995150
+      }
+    ],
+    "h1781690765458|2026-07-09": [
+      {
+        "ok": true,
+        "price": 2463,
+        "soldOut": false,
+        "ts": 1781699005012
+      }
+    ],
+    "h1781690765458|2026-07-10": [
+      {
+        "ok": true,
+        "price": 3537,
+        "soldOut": false,
+        "ts": 1781699015513
+      }
+    ],
+    "h1781690765458|2026-07-11": [
+      {
+        "ok": true,
+        "price": 4301,
+        "soldOut": false,
+        "ts": 1781699029622
+      }
+    ],
+    "h1781690765458|2026-07-12": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699042881
+      }
+    ],
+    "h1781690765458|2026-07-13": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699054619
+      }
+    ],
+    "h1781690765458|2026-07-14": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699065166
+      }
+    ],
+    "h1781690765458|2026-07-15": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699075564
+      }
+    ],
+    "h1781690765458|2026-07-16": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699086629
+      }
+    ],
+    "h1781690765458|2026-07-17": [
+      {
+        "ok": true,
+        "price": 3283,
+        "soldOut": false,
+        "ts": 1781699099110
+      }
+    ],
+    "h1781690765458|2026-07-18": [
+      {
+        "ok": true,
+        "price": 3985,
+        "soldOut": false,
+        "ts": 1781699110868
+      }
+    ],
+    "h1781690765458|2026-07-19": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699121929
+      }
+    ],
+    "h1781690765458|2026-07-20": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699132036
+      }
+    ],
+    "h1781690765458|2026-07-21": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699143087
+      }
+    ],
+    "h1781690765458|2026-07-22": [
+      {
+        "ok": true,
+        "price": 2937,
+        "soldOut": false,
+        "ts": 1781699152789
+      }
+    ],
+    "h1781690765458|2026-07-23": [
+      {
+        "ok": true,
+        "price": 2955,
+        "soldOut": false,
+        "ts": 1781699161307
+      }
+    ],
+    "h1781690765458|2026-07-24": [
+      {
+        "ok": true,
+        "price": 3283,
+        "soldOut": false,
+        "ts": 1781699170726
+      }
+    ],
+    "h1781690765458|2026-07-25": [
+      {
+        "ok": true,
+        "price": 3823,
+        "soldOut": false,
+        "ts": 1781699179346
+      }
+    ],
+    "h1781690765458|2026-07-26": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699190827
+      }
+    ],
+    "h1781690765458|2026-07-27": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699203358
+      }
+    ],
+    "h1781690765458|2026-07-28": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699213912
+      }
+    ],
+    "h1781690765458|2026-07-29": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699224149
+      }
+    ],
+    "h1781690765458|2026-07-30": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699235097
+      }
+    ],
+    "h1781690765458|2026-07-31": [
+      {
+        "ok": true,
+        "price": 3283,
+        "soldOut": false,
+        "ts": 1781699246794
+      }
+    ],
+    "h1781690765458|2026-08-01": [
+      {
+        "ok": true,
+        "price": 3786,
+        "soldOut": false,
+        "ts": 1781699256399
+      }
+    ],
+    "h1781690765458|2026-08-02": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699265964
+      }
+    ],
+    "h1781690765458|2026-08-03": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699275873
+      }
+    ],
+    "h1781690765458|2026-08-04": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699286244
+      }
+    ],
+    "h1781690765458|2026-08-05": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699298182
+      }
+    ],
+    "h1781690765458|2026-08-06": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699310797
+      }
+    ],
+    "h1781690765458|2026-08-07": [
+      {
+        "ok": true,
+        "price": 2937,
+        "soldOut": false,
+        "ts": 1781699319467
+      }
+    ],
+    "h1781690765458|2026-08-08": [
+      {
+        "ok": true,
+        "price": 3786,
+        "soldOut": false,
+        "ts": 1781699328285
+      }
+    ],
+    "h1781690765458|2026-08-09": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699336789
+      }
+    ],
+    "h1781690765458|2026-08-10": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699346219
+      }
+    ],
+    "h1781690765458|2026-08-11": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699355883
+      }
+    ],
+    "h1781690765458|2026-08-12": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699364283
+      }
+    ],
+    "h1781690765458|2026-08-13": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699373829
+      }
+    ],
+    "h1781690765458|2026-08-14": [
+      {
+        "ok": true,
+        "price": 3220,
+        "soldOut": false,
+        "ts": 1781699382497
+      }
+    ],
+    "h1781690765458|2026-08-15": [
+      {
+        "ok": true,
+        "price": 3786,
+        "soldOut": false,
+        "ts": 1781699393769
+      }
+    ],
+    "h1781690765458|2026-08-16": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699403287
+      }
+    ],
+    "h1781690765458|2026-08-17": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699412581
+      }
+    ],
+    "h1781690765458|2026-08-18": [
+      {
+        "ok": true,
+        "price": 2906,
+        "soldOut": false,
+        "ts": 1781699422654
+      }
+    ],
+    "h1781690765458|2026-08-19": [
+      {
+        "ok": true,
+        "price": 2906,
+        "soldOut": false,
+        "ts": 1781699431665
+      }
+    ],
+    "h1781690765458|2026-08-20": [
+      {
+        "ok": true,
+        "price": 2906,
+        "soldOut": false,
+        "ts": 1781699441941
+      }
+    ],
+    "h1781690765458|2026-08-21": [
+      {
+        "ok": true,
+        "price": 3283,
+        "soldOut": false,
+        "ts": 1781699450944
+      }
+    ],
+    "h1781690765458|2026-08-22": [
+      {
+        "ok": true,
+        "price": 3823,
+        "soldOut": false,
+        "ts": 1781699460069
+      }
+    ],
+    "h1781690765458|2026-08-23": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699469490
+      }
+    ],
+    "h1781690765458|2026-08-24": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699478132
+      }
+    ],
+    "h1781690765458|2026-08-25": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699488132
+      }
+    ],
+    "h1781690765458|2026-08-26": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699497202
+      }
+    ],
+    "h1781690765458|2026-08-27": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699506383
+      }
+    ],
+    "h1781690765458|2026-08-28": [
+      {
+        "ok": true,
+        "price": 3153,
+        "soldOut": false,
+        "ts": 1781699515965
+      }
+    ],
+    "h1781690765458|2026-08-29": [
+      {
+        "ok": true,
+        "price": 3499,
+        "soldOut": false,
+        "ts": 1781699525039
+      }
+    ],
+    "h1781690765458|2026-08-30": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699533792
+      }
+    ],
+    "h1781690765458|2026-08-31": [
+      {
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "ts": 1781699542326
+      }
+    ],
+    "h1781690783986|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2808,
+        "soldOut": false,
+        "ts": 1781691291982
+      },
+      {
+        "ok": true,
+        "price": 1681,
+        "soldOut": false,
+        "ts": 1781691997671
+      }
+    ],
+    "h1781690783986|2026-06-19": [
+      {
+        "ok": true,
+        "price": 3823,
+        "soldOut": false,
+        "ts": 1781691303092
+      },
+      {
+        "ok": true,
+        "price": 3411,
+        "soldOut": false,
+        "ts": 1781692007539
+      }
+    ],
+    "h1781690783986|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3931,
+        "soldOut": false,
+        "ts": 1781691336813
+      },
+      {
+        "ok": true,
+        "price": 5404,
+        "soldOut": false,
+        "ts": 1781692016319
+      }
+    ],
+    "h1781690783986|2026-06-21": [
+      {
+        "ok": true,
+        "price": 3088,
+        "soldOut": false,
+        "ts": 1781691377653
+      },
+      {
+        "ok": true,
+        "price": 2906,
+        "soldOut": false,
+        "ts": 1781692027211
+      }
+    ],
+    "h1781690787058|2026-06-18": [
+      {
+        "ok": true,
+        "price": 4160,
+        "soldOut": false,
+        "ts": 1781691405570
+      },
+      {
+        "ok": true,
+        "price": 4160,
+        "soldOut": false,
+        "ts": 1781692038653
+      }
+    ],
+    "h1781690787058|2026-06-19": [
+      {
+        "ok": true,
+        "price": 6320,
+        "soldOut": false,
+        "ts": 1781691417269
+      },
+      {
+        "ok": true,
+        "price": 6320,
+        "soldOut": false,
+        "ts": 1781692049680
+      }
+    ],
+    "h1781690787058|2026-06-20": [
+      {
+        "ok": true,
+        "price": 5680,
+        "soldOut": false,
+        "ts": 1781691424553
+      },
+      {
+        "ok": true,
+        "price": 5680,
+        "soldOut": false,
+        "ts": 1781692060330
+      }
+    ],
+    "h1781690787058|2026-06-21": [
+      {
+        "ok": true,
+        "price": 4160,
+        "soldOut": false,
+        "ts": 1781691434013
+      },
+      {
+        "ok": true,
+        "price": 4160,
+        "soldOut": false,
+        "ts": 1781692072587
+      }
+    ],
+    "h1781690790954|2026-06-18": [
+      {
+        "ok": true,
+        "price": 1296,
+        "soldOut": false,
+        "ts": 1781691443064
+      },
+      {
+        "ok": true,
+        "price": 1296,
+        "soldOut": false,
+        "ts": 1781692082003
+      }
+    ],
+    "h1781690790954|2026-06-19": [
+      {
+        "ok": true,
+        "price": 2816,
+        "soldOut": false,
+        "ts": 1781691450961
+      },
+      {
+        "ok": true,
+        "price": 2816,
+        "soldOut": false,
+        "ts": 1781692091396
+      }
+    ],
+    "h1781690790954|2026-06-20": [
+      {
+        "ok": true,
+        "price": 2304,
+        "soldOut": false,
+        "ts": 1781691458803
+      },
+      {
+        "ok": true,
+        "price": 2304,
+        "soldOut": false,
+        "ts": 1781692100693
+      }
+    ],
+    "h1781690790954|2026-06-21": [
+      {
+        "ok": true,
+        "price": 1210,
+        "soldOut": false,
+        "ts": 1781691467320
+      },
+      {
+        "ok": true,
+        "price": 1210,
+        "soldOut": false,
+        "ts": 1781692109726
+      }
+    ],
+    "h1781690794954|2026-06-18": [
+      {
+        "ok": true,
+        "price": 1233,
+        "soldOut": false,
+        "ts": 1781691477303
+      },
+      {
+        "ok": true,
+        "price": 1233,
+        "soldOut": false,
+        "ts": 1781692122664
+      },
+      {
+        "ok": true,
+        "price": 1233,
+        "soldOut": false,
+        "ts": 1781694621878
+      }
+    ],
+    "h1781690794954|2026-06-19": [
+      {
+        "ok": true,
+        "price": 3233,
+        "soldOut": false,
+        "ts": 1781691487068
+      },
+      {
+        "ok": true,
+        "price": 3233,
+        "soldOut": false,
+        "ts": 1781692134796
+      },
+      {
+        "ok": true,
+        "price": 3233,
+        "soldOut": false,
+        "ts": 1781694631329
+      }
+    ],
+    "h1781690794954|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3233,
+        "soldOut": false,
+        "ts": 1781691498097
+      },
+      {
+        "ok": true,
+        "price": 3233,
+        "soldOut": false,
+        "ts": 1781694640894
+      }
+    ],
+    "h1781690794954|2026-06-21": [
+      {
+        "ok": true,
+        "price": 1233,
+        "soldOut": false,
+        "ts": 1781691508354
+      },
+      {
+        "ok": true,
+        "price": 1233,
+        "soldOut": false,
+        "ts": 1781694652418
+      }
+    ],
+    "h1781690840490|2026-06-18": [
+      {
+        "ok": true,
+        "price": 1229,
+        "soldOut": false,
+        "ts": 1781691520175
+      },
+      {
+        "ok": true,
+        "price": 1229,
+        "soldOut": false,
+        "ts": 1781694704380
+      }
+    ],
+    "h1781690840490|2026-06-19": [
+      {
+        "ok": true,
+        "price": 2509,
+        "soldOut": false,
+        "ts": 1781691530767
+      },
+      {
+        "ok": true,
+        "price": 2509,
+        "soldOut": false,
+        "ts": 1781694714742
+      }
+    ],
+    "h1781690840490|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3840,
+        "soldOut": false,
+        "ts": 1781691542761
+      },
+      {
+        "ok": true,
+        "price": 3840,
+        "soldOut": false,
+        "ts": 1781694726706
+      }
+    ],
+    "h1781690840490|2026-06-21": [
+      {
+        "ok": true,
+        "price": 1638,
+        "soldOut": false,
+        "ts": 1781691556768
+      },
+      {
+        "ok": true,
+        "price": 1638,
+        "soldOut": false,
+        "ts": 1781694737601
+      }
+    ],
+    "h1781690844855|2026-06-17": [
+      {
+        "ok": true,
+        "price": 1900,
+        "soldOut": false,
+        "ts": 1781699549197
+      }
+    ],
+    "h1781690844855|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2399,
+        "soldOut": false,
+        "ts": 1781691568452
+      },
+      {
+        "ok": true,
+        "price": 2399,
+        "soldOut": false,
+        "ts": 1781694188053
+      },
+      {
+        "ok": true,
+        "price": 1900,
+        "soldOut": false,
+        "ts": 1781699557358
+      }
+    ],
+    "h1781690844855|2026-06-19": [
+      {
+        "ok": true,
+        "price": 4200,
+        "soldOut": false,
+        "ts": 1781691579061
+      },
+      {
+        "ok": true,
+        "price": 4200,
+        "soldOut": false,
+        "ts": 1781694196222
+      },
+      {
+        "ok": true,
+        "price": 4200,
+        "soldOut": false,
+        "ts": 1781699564987
+      }
+    ],
+    "h1781690844855|2026-06-20": [
+      {
+        "ok": true,
+        "price": 4680,
+        "soldOut": false,
+        "ts": 1781691589178
+      },
+      {
+        "ok": true,
+        "price": 4680,
+        "soldOut": false,
+        "ts": 1781694205499
+      },
+      {
+        "ok": true,
+        "price": 4800,
+        "soldOut": false,
+        "ts": 1781699574023
+      }
+    ],
+    "h1781690844855|2026-06-21": [
+      {
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "ts": 1781691600227
+      },
+      {
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "ts": 1781694213885
+      },
+      {
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "ts": 1781699586325
+      }
+    ],
+    "h1781690844855|2026-06-22": [
+      {
+        "ok": true,
+        "price": 2635,
+        "soldOut": false,
+        "ts": 1781699595279
+      }
+    ],
+    "h1781690844855|2026-06-23": [
+      {
+        "ok": true,
+        "price": 2635,
+        "soldOut": false,
+        "ts": 1781699605583
+      }
+    ],
+    "h1781690844855|2026-06-24": [
+      {
+        "ok": true,
+        "price": 2900,
+        "soldOut": false,
+        "ts": 1781699614976
+      }
+    ],
+    "h1781690844855|2026-06-25": [
+      {
+        "ok": true,
+        "price": 2900,
+        "soldOut": false,
+        "ts": 1781699625186
+      }
+    ],
+    "h1781690844855|2026-06-26": [
+      {
+        "ok": true,
+        "price": 4300,
+        "soldOut": false,
+        "ts": 1781699634151
+      }
+    ],
+    "h1781690844855|2026-06-27": [
+      {
+        "ok": true,
+        "price": 4000,
+        "soldOut": false,
+        "ts": 1781699643241
+      }
+    ],
+    "h1781690844855|2026-06-28": [
+      {
+        "ok": true,
+        "price": 2975,
+        "soldOut": false,
+        "ts": 1781699651380
+      }
+    ],
+    "h1781690844855|2026-06-29": [
+      {
+        "ok": true,
+        "price": 2450,
+        "soldOut": false,
+        "ts": 1781699660001
+      }
+    ],
+    "h1781690844855|2026-06-30": [
+      {
+        "ok": true,
+        "price": 2450,
+        "soldOut": false,
+        "ts": 1781699670482
+      }
+    ],
+    "h1781690844855|2026-07-01": [
+      {
+        "ok": true,
+        "price": 2655,
+        "soldOut": false,
+        "ts": 1781699679835
+      }
+    ],
+    "h1781690844855|2026-07-02": [
+      {
+        "ok": true,
+        "price": 2300,
+        "soldOut": false,
+        "ts": 1781699688801
+      }
+    ],
+    "h1781690844855|2026-07-03": [
+      {
+        "ok": true,
+        "price": 3100,
+        "soldOut": false,
+        "ts": 1781699697897
+      }
+    ],
+    "h1781690844855|2026-07-04": [
+      {
+        "ok": true,
+        "price": 3900,
+        "soldOut": false,
+        "ts": 1781699706483
+      }
+    ],
+    "h1781690844855|2026-07-05": [
+      {
+        "ok": true,
+        "price": 2300,
+        "soldOut": false,
+        "ts": 1781699716904
+      }
+    ],
+    "h1781690844855|2026-07-06": [
+      {
+        "ok": true,
+        "price": 2300,
+        "soldOut": false,
+        "ts": 1781699726719
+      }
+    ],
+    "h1781690844855|2026-07-07": [
+      {
+        "ok": true,
+        "price": 2599,
+        "soldOut": false,
+        "ts": 1781699735410
+      }
+    ],
+    "h1781690844855|2026-07-08": [
+      {
+        "ok": true,
+        "price": 2450,
+        "soldOut": false,
+        "ts": 1781699745744
+      }
+    ],
+    "h1781690844855|2026-07-09": [
+      {
+        "ok": true,
+        "price": 2450,
+        "soldOut": false,
+        "ts": 1781699756126
+      }
+    ],
+    "h1781690844855|2026-07-10": [
+      {
+        "ok": true,
+        "price": 5760,
+        "soldOut": false,
+        "ts": 1781699764026
+      }
+    ],
+    "h1781690844855|2026-07-11": [
+      {
+        "ok": true,
+        "price": 5200,
+        "soldOut": false,
+        "ts": 1781699772137
+      }
+    ],
+    "h1781690844855|2026-07-12": [
+      {
+        "ok": true,
+        "price": 2450,
+        "soldOut": false,
+        "ts": 1781699780609
+      }
+    ],
+    "h1781690844855|2026-07-13": [
+      {
+        "ok": true,
+        "price": 3600,
+        "soldOut": false,
+        "ts": 1781699789675
+      }
+    ],
+    "h1781690844855|2026-07-14": [
+      {
+        "ok": true,
+        "price": 2955,
+        "soldOut": false,
+        "ts": 1781699798058
+      }
+    ],
+    "h1781690844855|2026-07-15": [
+      {
+        "ok": true,
+        "price": 2599,
+        "soldOut": false,
+        "ts": 1781699806137
+      }
+    ],
+    "h1781690844855|2026-07-16": [
+      {
+        "ok": true,
+        "price": 3300,
+        "soldOut": false,
+        "ts": 1781699815367
+      }
+    ],
+    "h1781690844855|2026-07-17": [
+      {
+        "ok": true,
+        "price": 4900,
+        "soldOut": false,
+        "ts": 1781699824594
+      }
+    ],
+    "h1781690844855|2026-07-18": [
+      {
+        "ok": true,
+        "price": 5880,
+        "soldOut": false,
+        "ts": 1781699832827
+      }
+    ],
+    "h1781690844855|2026-07-19": [
+      {
+        "ok": true,
+        "price": 2450,
+        "soldOut": false,
+        "ts": 1781699840952
+      }
+    ],
+    "h1781690844855|2026-07-20": [
+      {
+        "ok": true,
+        "price": 2450,
+        "soldOut": false,
+        "ts": 1781699849620
+      }
+    ],
+    "h1781690844855|2026-07-21": [
+      {
+        "ok": true,
+        "price": 3960,
+        "soldOut": false,
+        "ts": 1781699857884
+      }
+    ],
+    "h1781690844855|2026-07-22": [
+      {
+        "ok": true,
+        "price": 2450,
+        "soldOut": false,
+        "ts": 1781699866619
+      }
+    ],
+    "h1781690844855|2026-07-23": [
+      {
+        "ok": true,
+        "price": 2300,
+        "soldOut": false,
+        "ts": 1781699874315
+      }
+    ],
+    "h1781690844855|2026-07-24": [
+      {
+        "ok": true,
+        "price": 3600,
+        "soldOut": false,
+        "ts": 1781699884039
+      }
+    ],
+    "h1781690844855|2026-07-25": [
+      {
+        "ok": true,
+        "price": 4400,
+        "soldOut": false,
+        "ts": 1781699893053
+      }
+    ],
+    "h1781690844855|2026-07-26": [
+      {
+        "ok": true,
+        "price": 2300,
+        "soldOut": false,
+        "ts": 1781699901689
+      }
+    ],
+    "h1781690844855|2026-07-27": [
+      {
+        "ok": true,
+        "price": 2300,
+        "soldOut": false,
+        "ts": 1781699912364
+      }
+    ],
+    "h1781690844855|2026-07-28": [
+      {
+        "ok": true,
+        "price": 2450,
+        "soldOut": false,
+        "ts": 1781699922951
+      }
+    ],
+    "h1781690844855|2026-07-29": [
+      {
+        "ok": true,
+        "price": 2450,
+        "soldOut": false,
+        "ts": 1781699933865
+      }
+    ],
+    "h1781690844855|2026-07-30": [
+      {
+        "ok": true,
+        "price": 2300,
+        "soldOut": false,
+        "ts": 1781699942797
+      }
+    ],
+    "h1781690844855|2026-07-31": [
+      {
+        "ok": true,
+        "price": 3800,
+        "soldOut": false,
+        "ts": 1781699950930
+      }
+    ],
+    "h1781690844855|2026-08-01": [
+      {
+        "ok": true,
+        "price": 3900,
+        "soldOut": false,
+        "ts": 1781699958701
+      }
+    ],
+    "h1781690844855|2026-08-02": [
+      {
+        "ok": true,
+        "price": 3199,
+        "soldOut": false,
+        "ts": 1781699968862
+      }
+    ],
+    "h1781690844855|2026-08-03": [
+      {
+        "ok": true,
+        "price": 2999,
+        "soldOut": false,
+        "ts": 1781699976721
+      }
+    ],
+    "h1781690844855|2026-08-04": [
+      {
+        "ok": true,
+        "price": 2999,
+        "soldOut": false,
+        "ts": 1781699984685
+      }
+    ],
+    "h1781690844855|2026-08-05": [
+      {
+        "ok": true,
+        "price": 2999,
+        "soldOut": false,
+        "ts": 1781699992357
+      }
+    ],
+    "h1781690844855|2026-08-06": [
+      {
+        "ok": true,
+        "price": 2800,
+        "soldOut": false,
+        "ts": 1781700000138
+      }
+    ],
+    "h1781690844855|2026-08-07": [
+      {
+        "ok": true,
+        "price": 4000,
+        "soldOut": false,
+        "ts": 1781700008291
+      }
+    ],
+    "h1781690844855|2026-08-08": [
+      {
+        "ok": true,
+        "price": 5700,
+        "soldOut": false,
+        "ts": 1781700017028
+      }
+    ],
+    "h1781690844855|2026-08-09": [
+      {
+        "ok": true,
+        "price": 3100,
+        "soldOut": false,
+        "ts": 1781700024753
+      }
+    ],
+    "h1781690844855|2026-08-10": [
+      {
+        "ok": true,
+        "price": 2900,
+        "soldOut": false,
+        "ts": 1781700033593
+      }
+    ],
+    "h1781690844855|2026-08-11": [
+      {
+        "ok": true,
+        "price": 3200,
+        "soldOut": false,
+        "ts": 1781700043056
+      }
+    ],
+    "h1781690844855|2026-08-12": [
+      {
+        "ok": true,
+        "price": 3300,
+        "soldOut": false,
+        "ts": 1781700051160
+      }
+    ],
+    "h1781690844855|2026-08-13": [
+      {
+        "ok": true,
+        "price": 3300,
+        "soldOut": false,
+        "ts": 1781700060003
+      }
+    ],
+    "h1781690844855|2026-08-14": [
+      {
+        "ok": true,
+        "price": 5520,
+        "soldOut": false,
+        "ts": 1781700069771
+      }
+    ],
+    "h1781690844855|2026-08-15": [
+      {
+        "ok": true,
+        "price": 5800,
+        "soldOut": false,
+        "ts": 1781700077880
+      }
+    ],
+    "h1781690844855|2026-08-16": [
+      {
+        "ok": true,
+        "price": 2900,
+        "soldOut": false,
+        "ts": 1781700086214
+      }
+    ],
+    "h1781690844855|2026-08-17": [
+      {
+        "ok": true,
+        "price": 2900,
+        "soldOut": false,
+        "ts": 1781700094685
+      }
+    ],
+    "h1781690844855|2026-08-18": [
+      {
+        "ok": true,
+        "price": 3000,
+        "soldOut": false,
+        "ts": 1781700103542
+      }
+    ],
+    "h1781690844855|2026-08-19": [
+      {
+        "ok": true,
+        "price": 3100,
+        "soldOut": false,
+        "ts": 1781700111282
+      }
+    ],
+    "h1781690844855|2026-08-20": [
+      {
+        "ok": true,
+        "price": 3200,
+        "soldOut": false,
+        "ts": 1781700120578
+      }
+    ],
+    "h1781690844855|2026-08-21": [
+      {
+        "ok": true,
+        "price": 5520,
+        "soldOut": false,
+        "ts": 1781700127882
+      }
+    ],
+    "h1781690844855|2026-08-22": [
+      {
+        "ok": true,
+        "price": 3900,
+        "soldOut": false,
+        "ts": 1781700136155
+      }
+    ],
+    "h1781690844855|2026-08-23": [
+      {
+        "ok": true,
+        "price": 2600,
+        "soldOut": false,
+        "ts": 1781700144165
+      }
+    ],
+    "h1781690844855|2026-08-24": [
+      {
+        "ok": true,
+        "price": 3960,
+        "soldOut": false,
+        "ts": 1781700152863
+      }
+    ],
+    "h1781690844855|2026-08-25": [
+      {
+        "ok": true,
+        "price": 2600,
+        "soldOut": false,
+        "ts": 1781700161286
+      }
+    ],
+    "h1781690844855|2026-08-26": [
+      {
+        "ok": true,
+        "price": 2450,
+        "soldOut": false,
+        "ts": 1781700168984
+      }
+    ],
+    "h1781690844855|2026-08-27": [
+      {
+        "ok": true,
+        "price": 2450,
+        "soldOut": false,
+        "ts": 1781700176266
+      }
+    ],
+    "h1781690844855|2026-08-28": [
+      {
+        "ok": true,
+        "price": 3100,
+        "soldOut": false,
+        "ts": 1781700184575
+      }
+    ],
+    "h1781690844855|2026-08-29": [
+      {
+        "ok": true,
+        "price": 5520,
+        "soldOut": false,
+        "ts": 1781700191834
+      }
+    ],
+    "h1781690844855|2026-08-30": [
+      {
+        "ok": true,
+        "price": 2450,
+        "soldOut": false,
+        "ts": 1781700199341
+      }
+    ],
+    "h1781690844855|2026-08-31": [
+      {
+        "ok": true,
+        "price": 2450,
+        "soldOut": false,
+        "ts": 1781700208283
+      }
+    ],
+    "h1781690849503|2026-06-17": [
+      {
+        "ok": true,
+        "price": 1944,
+        "soldOut": false,
+        "ts": 1781700839385
+      }
+    ],
+    "h1781690849503|2026-06-18": [
+      {
+        "ok": true,
+        "price": 1620,
+        "soldOut": false,
+        "ts": 1781691612027
+      },
+      {
+        "ok": true,
+        "price": 1620,
+        "soldOut": false,
+        "ts": 1781694258816
+      },
+      {
+        "ok": true,
+        "price": 1620,
+        "soldOut": false,
+        "ts": 1781700846833
+      }
+    ],
+    "h1781690849503|2026-06-19": [
+      {
+        "ok": false,
+        "price": null,
+        "soldOut": false,
+        "ts": 1781691613573
+      },
+      {
+        "ok": true,
+        "price": 5940,
+        "soldOut": false,
+        "ts": 1781694268843
+      },
+      {
+        "ok": true,
+        "price": 5940,
+        "soldOut": false,
+        "ts": 1781700853984
+      }
+    ],
+    "h1781690849503|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3780,
+        "soldOut": false,
+        "ts": 1781694277622
+      },
+      {
+        "ok": true,
+        "price": 5130,
+        "soldOut": false,
+        "ts": 1781700861304
+      }
+    ],
+    "h1781690849503|2026-06-21": [
+      {
+        "ok": true,
+        "price": 1620,
+        "soldOut": false,
+        "ts": 1781694287031
+      },
+      {
+        "ok": true,
+        "price": 1620,
+        "soldOut": false,
+        "ts": 1781700869218
+      }
+    ],
+    "h1781690849503|2026-06-22": [
+      {
+        "ok": true,
+        "price": 1890,
+        "soldOut": false,
+        "ts": 1781700877415
+      }
+    ],
+    "h1781690849503|2026-06-23": [
+      {
+        "ok": true,
+        "price": 1890,
+        "soldOut": false,
+        "ts": 1781700885436
+      }
+    ],
+    "h1781690849503|2026-06-24": [
+      {
+        "ok": true,
+        "price": 2160,
+        "soldOut": false,
+        "ts": 1781700893318
+      }
+    ],
+    "h1781690849503|2026-06-25": [
+      {
+        "ok": true,
+        "price": 1620,
+        "soldOut": false,
+        "ts": 1781700900665
+      }
+    ],
+    "h1781690849503|2026-06-26": [
+      {
+        "ok": true,
+        "price": 4320,
+        "soldOut": false,
+        "ts": 1781700907700
+      }
+    ],
+    "h1781690849503|2026-06-27": [
+      {
+        "ok": true,
+        "price": 4860,
+        "soldOut": false,
+        "ts": 1781700915379
+      }
+    ],
+    "h1781690849503|2026-06-28": [
+      {
+        "ok": true,
+        "price": 2160,
+        "soldOut": false,
+        "ts": 1781700923230
+      }
+    ],
+    "h1781690849503|2026-06-29": [
+      {
+        "ok": true,
+        "price": 2052,
+        "soldOut": false,
+        "ts": 1781700931669
+      }
+    ],
+    "h1781690849503|2026-06-30": [
+      {
+        "ok": true,
+        "price": 1728,
+        "soldOut": false,
+        "ts": 1781700939703
+      }
+    ],
+    "h1781690849503|2026-07-01": [
+      {
+        "ok": true,
+        "price": 1890,
+        "soldOut": false,
+        "ts": 1781700948619
+      }
+    ],
+    "h1781690849503|2026-07-02": [
+      {
+        "ok": true,
+        "price": 1890,
+        "soldOut": false,
+        "ts": 1781700956242
+      }
+    ],
+    "h1781690849503|2026-07-03": [
+      {
+        "ok": true,
+        "price": 3240,
+        "soldOut": false,
+        "ts": 1781700964801
+      }
+    ],
+    "h1781690849503|2026-07-04": [
+      {
+        "ok": true,
+        "price": 6480,
+        "soldOut": false,
+        "ts": 1781700971853
+      }
+    ],
+    "h1781690849503|2026-07-05": [
+      {
+        "ok": true,
+        "price": 1890,
+        "soldOut": false,
+        "ts": 1781700979868
+      }
+    ],
+    "h1781690849503|2026-07-06": [
+      {
+        "ok": true,
+        "price": 1890,
+        "soldOut": false,
+        "ts": 1781700989573
+      }
+    ],
+    "h1781690849503|2026-07-07": [
+      {
+        "ok": true,
+        "price": 1890,
+        "soldOut": false,
+        "ts": 1781700997806
+      }
+    ],
+    "h1781690849503|2026-07-08": [
+      {
+        "ok": true,
+        "price": 1890,
+        "soldOut": false,
+        "ts": 1781701005257
+      }
+    ],
+    "h1781690849503|2026-07-09": [
+      {
+        "ok": true,
+        "price": 1890,
+        "soldOut": false,
+        "ts": 1781701012773
+      }
+    ],
+    "h1781690849503|2026-07-10": [
+      {
+        "ok": true,
+        "price": 2700,
+        "soldOut": false,
+        "ts": 1781701020155
+      }
+    ],
+    "h1781690849503|2026-07-11": [
+      {
+        "ok": true,
+        "price": 3000,
+        "soldOut": false,
+        "ts": 1781701026821
+      }
+    ],
+    "h1781690849503|2026-07-12": [
+      {
+        "ok": true,
+        "price": 1890,
+        "soldOut": false,
+        "ts": 1781701034785
+      }
+    ],
+    "h1781690849503|2026-07-13": [
+      {
+        "ok": true,
+        "price": 1890,
+        "soldOut": false,
+        "ts": 1781701043078
+      }
+    ],
+    "h1781690849503|2026-07-14": [
+      {
+        "ok": true,
+        "price": 1890,
+        "soldOut": false,
+        "ts": 1781701050346
+      }
+    ],
+    "h1781690849503|2026-07-15": [
+      {
+        "ok": true,
+        "price": 1890,
+        "soldOut": false,
+        "ts": 1781701059682
+      }
+    ],
+    "h1781690849503|2026-07-16": [
+      {
+        "ok": true,
+        "price": 1890,
+        "soldOut": false,
+        "ts": 1781701068097
+      }
+    ],
+    "h1781690849503|2026-07-17": [
+      {
+        "ok": true,
+        "price": 2475,
+        "soldOut": false,
+        "ts": 1781701076162
+      }
+    ],
+    "h1781690849503|2026-07-18": [
+      {
+        "ok": true,
+        "price": 3465,
+        "soldOut": false,
+        "ts": 1781701083376
+      }
+    ],
+    "h1781690849503|2026-07-19": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701091216
+      }
+    ],
+    "h1781690849503|2026-07-20": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701099345
+      }
+    ],
+    "h1781690849503|2026-07-21": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701107253
+      }
+    ],
+    "h1781690849503|2026-07-22": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701114574
+      }
+    ],
+    "h1781690849503|2026-07-23": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701121614
+      }
+    ],
+    "h1781690849503|2026-07-24": [
+      {
+        "ok": true,
+        "price": 2475,
+        "soldOut": false,
+        "ts": 1781701129356
+      }
+    ],
+    "h1781690849503|2026-07-25": [
+      {
+        "ok": true,
+        "price": 3465,
+        "soldOut": false,
+        "ts": 1781701137046
+      }
+    ],
+    "h1781690849503|2026-07-26": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701144705
+      }
+    ],
+    "h1781690849503|2026-07-27": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701152681
+      }
+    ],
+    "h1781690849503|2026-07-28": [
+      {
+        "ok": true,
+        "price": 1980,
+        "soldOut": false,
+        "ts": 1781701160568
+      }
+    ],
+    "h1781690849503|2026-07-29": [
+      {
+        "ok": true,
+        "price": 1980,
+        "soldOut": false,
+        "ts": 1781701167713
+      }
+    ],
+    "h1781690849503|2026-07-30": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701175411
+      }
+    ],
+    "h1781690849503|2026-07-31": [
+      {
+        "ok": true,
+        "price": 2970,
+        "soldOut": false,
+        "ts": 1781701182446
+      }
+    ],
+    "h1781690849503|2026-08-01": [
+      {
+        "ok": true,
+        "price": 3465,
+        "soldOut": false,
+        "ts": 1781701189715
+      }
+    ],
+    "h1781690849503|2026-08-02": [
+      {
+        "ok": true,
+        "price": 1980,
+        "soldOut": false,
+        "ts": 1781701197065
+      }
+    ],
+    "h1781690849503|2026-08-03": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701204617
+      }
+    ],
+    "h1781690849503|2026-08-04": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701212542
+      }
+    ],
+    "h1781690849503|2026-08-05": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701221045
+      }
+    ],
+    "h1781690849503|2026-08-06": [
+      {
+        "ok": true,
+        "price": 1980,
+        "soldOut": false,
+        "ts": 1781701229868
+      }
+    ],
+    "h1781690849503|2026-08-07": [
+      {
+        "ok": true,
+        "price": 3000,
+        "soldOut": false,
+        "ts": 1781701237203
+      }
+    ],
+    "h1781690849503|2026-08-08": [
+      {
+        "ok": true,
+        "price": 3465,
+        "soldOut": false,
+        "ts": 1781701245479
+      }
+    ],
+    "h1781690849503|2026-08-09": [
+      {
+        "ok": true,
+        "price": 1980,
+        "soldOut": false,
+        "ts": 1781701254504
+      }
+    ],
+    "h1781690849503|2026-08-10": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701262458
+      }
+    ],
+    "h1781690849503|2026-08-11": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701270344
+      }
+    ],
+    "h1781690849503|2026-08-12": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701278196
+      }
+    ],
+    "h1781690849503|2026-08-13": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701286629
+      }
+    ],
+    "h1781690849503|2026-08-14": [
+      {
+        "ok": true,
+        "price": 2475,
+        "soldOut": false,
+        "ts": 1781701296268
+      }
+    ],
+    "h1781690849503|2026-08-15": [
+      {
+        "ok": true,
+        "price": 5940,
+        "soldOut": false,
+        "ts": 1781701304210
+      }
+    ],
+    "h1781690849503|2026-08-16": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701312593
+      }
+    ],
+    "h1781690849503|2026-08-17": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701320191
+      }
+    ],
+    "h1781690849503|2026-08-18": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701328089
+      }
+    ],
+    "h1781690849503|2026-08-19": [
+      {
+        "ok": true,
+        "price": 1980,
+        "soldOut": false,
+        "ts": 1781701335581
+      }
+    ],
+    "h1781690849503|2026-08-20": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701343200
+      }
+    ],
+    "h1781690849503|2026-08-21": [
+      {
+        "ok": true,
+        "price": 2475,
+        "soldOut": false,
+        "ts": 1781701352190
+      }
+    ],
+    "h1781690849503|2026-08-22": [
+      {
+        "ok": true,
+        "price": 2723,
+        "soldOut": false,
+        "ts": 1781701359938
+      }
+    ],
+    "h1781690849503|2026-08-23": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701367581
+      }
+    ],
+    "h1781690849503|2026-08-24": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701375402
+      }
+    ],
+    "h1781690849503|2026-08-25": [
+      {
+        "ok": true,
+        "price": 1980,
+        "soldOut": false,
+        "ts": 1781701383282
+      }
+    ],
+    "h1781690849503|2026-08-26": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701390564
+      }
+    ],
+    "h1781690849503|2026-08-27": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701398621
+      }
+    ],
+    "h1781690849503|2026-08-28": [
+      {
+        "ok": true,
+        "price": 2970,
+        "soldOut": false,
+        "ts": 1781701406430
+      }
+    ],
+    "h1781690849503|2026-08-29": [
+      {
+        "ok": true,
+        "price": 3465,
+        "soldOut": false,
+        "ts": 1781701413568
+      }
+    ],
+    "h1781690849503|2026-08-30": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701421769
+      }
+    ],
+    "h1781690849503|2026-08-31": [
+      {
+        "ok": true,
+        "price": 1733,
+        "soldOut": false,
+        "ts": 1781701430642
+      }
+    ],
+    "h1781690855439|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2399,
+        "soldOut": false,
+        "ts": 1781694527877
+      }
+    ],
+    "h1781690855439|2026-06-19": [
+      {
+        "ok": true,
+        "price": 3499,
+        "soldOut": false,
+        "ts": 1781694537812
+      }
+    ],
+    "h1781690855439|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3699,
+        "soldOut": false,
+        "ts": 1781694549135
+      }
+    ],
+    "h1781690855439|2026-06-21": [
+      {
+        "ok": true,
+        "price": 2423,
+        "soldOut": false,
+        "ts": 1781694562567
+      }
+    ],
+    "h1781690865928|2026-06-18": [
+      {
+        "ok": true,
+        "price": 1232,
+        "soldOut": false,
+        "ts": 1781694661106
+      }
+    ],
+    "h1781690865928|2026-06-19": [
+      {
+        "ok": true,
+        "price": 2244,
+        "soldOut": false,
+        "ts": 1781694672782
+      }
+    ],
+    "h1781690865928|2026-06-20": [
+      {
+        "ok": true,
+        "price": 2688,
+        "soldOut": false,
+        "ts": 1781694683032
+      }
+    ],
+    "h1781690865928|2026-06-21": [
+      {
+        "ok": true,
+        "price": 1144,
+        "soldOut": false,
+        "ts": 1781694693261
+      }
+    ],
+    "h1781690869222|2026-06-17": [
+      {
+        "ok": true,
+        "price": 2363,
+        "soldOut": false,
+        "ts": 1781697465298
+      }
+    ],
+    "h1781690869222|2026-06-18": [
+      {
+        "ok": true,
+        "price": 3038,
+        "soldOut": false,
+        "ts": 1781694074734
+      },
+      {
+        "ok": true,
+        "price": 3038,
+        "soldOut": false,
+        "ts": 1781697472880
+      }
+    ],
+    "h1781690869222|2026-06-19": [
+      {
+        "ok": true,
+        "price": 4185,
+        "soldOut": false,
+        "ts": 1781694082831
+      },
+      {
+        "ok": true,
+        "price": 4185,
+        "soldOut": false,
+        "ts": 1781697480928
+      }
+    ],
+    "h1781690869222|2026-06-20": [
+      {
+        "ok": true,
+        "price": 6210,
+        "soldOut": false,
+        "ts": 1781694091935
+      },
+      {
+        "ok": true,
+        "price": 6210,
+        "soldOut": false,
+        "ts": 1781697488660
+      }
+    ],
+    "h1781690869222|2026-06-21": [
+      {
+        "ok": true,
+        "price": 2363,
+        "soldOut": false,
+        "ts": 1781694100641
+      },
+      {
+        "ok": true,
+        "price": 2363,
+        "soldOut": false,
+        "ts": 1781697497155
+      }
+    ],
+    "h1781690869222|2026-06-22": [
+      {
+        "ok": true,
+        "price": 2363,
+        "soldOut": false,
+        "ts": 1781697507752
+      }
+    ],
+    "h1781690869222|2026-06-23": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697515382
+      }
+    ],
+    "h1781690869222|2026-06-24": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697523253
+      }
+    ],
+    "h1781690869222|2026-06-25": [
+      {
+        "ok": true,
+        "price": 2430,
+        "soldOut": false,
+        "ts": 1781697531870
+      }
+    ],
+    "h1781690869222|2026-06-26": [
+      {
+        "ok": true,
+        "price": 3510,
+        "soldOut": false,
+        "ts": 1781697540151
+      }
+    ],
+    "h1781690869222|2026-06-27": [
+      {
+        "ok": true,
+        "price": 1000,
+        "soldOut": false,
+        "ts": 1781697548699
+      }
+    ],
+    "h1781690869222|2026-06-28": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697557200
+      }
+    ],
+    "h1781690869222|2026-06-29": [
+      {
+        "ok": true,
+        "price": 2363,
+        "soldOut": false,
+        "ts": 1781697566397
+      }
+    ],
+    "h1781690869222|2026-06-30": [
+      {
+        "ok": true,
+        "price": 2363,
+        "soldOut": false,
+        "ts": 1781697574879
+      }
+    ],
+    "h1781690869222|2026-07-01": [
+      {
+        "ok": true,
+        "price": 2430,
+        "soldOut": false,
+        "ts": 1781697583935
+      }
+    ],
+    "h1781690869222|2026-07-02": [
+      {
+        "ok": true,
+        "price": 2430,
+        "soldOut": false,
+        "ts": 1781697592521
+      }
+    ],
+    "h1781690869222|2026-07-03": [
+      {
+        "ok": true,
+        "price": 3848,
+        "soldOut": false,
+        "ts": 1781697601233
+      }
+    ],
+    "h1781690869222|2026-07-04": [
+      {
+        "ok": true,
+        "price": 1000,
+        "soldOut": false,
+        "ts": 1781697609239
+      }
+    ],
+    "h1781690869222|2026-07-05": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697619010
+      }
+    ],
+    "h1781690869222|2026-07-06": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697630545
+      }
+    ],
+    "h1781690869222|2026-07-07": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697639263
+      }
+    ],
+    "h1781690869222|2026-07-08": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697648022
+      }
+    ],
+    "h1781690869222|2026-07-09": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697657446
+      }
+    ],
+    "h1781690869222|2026-07-10": [
+      {
+        "ok": true,
+        "price": 3848,
+        "soldOut": false,
+        "ts": 1781697666615
+      }
+    ],
+    "h1781690869222|2026-07-11": [
+      {
+        "ok": true,
+        "price": 1000,
+        "soldOut": false,
+        "ts": 1781697674626
+      }
+    ],
+    "h1781690869222|2026-07-12": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697684351
+      }
+    ],
+    "h1781690869222|2026-07-13": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697693125
+      }
+    ],
+    "h1781690869222|2026-07-14": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697702367
+      }
+    ],
+    "h1781690869222|2026-07-15": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697711856
+      }
+    ],
+    "h1781690869222|2026-07-16": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697720475
+      }
+    ],
+    "h1781690869222|2026-07-17": [
+      {
+        "ok": true,
+        "price": 3510,
+        "soldOut": false,
+        "ts": 1781697728997
+      }
+    ],
+    "h1781690869222|2026-07-18": [
+      {
+        "ok": true,
+        "price": 4185,
+        "soldOut": false,
+        "ts": 1781697737328
+      }
+    ],
+    "h1781690869222|2026-07-19": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697747121
+      }
+    ],
+    "h1781690869222|2026-07-20": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697755844
+      }
+    ],
+    "h1781690869222|2026-07-21": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697764451
+      }
+    ],
+    "h1781690869222|2026-07-22": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697773587
+      }
+    ],
+    "h1781690869222|2026-07-23": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697781780
+      }
+    ],
+    "h1781690869222|2026-07-24": [
+      {
+        "ok": true,
+        "price": 3848,
+        "soldOut": false,
+        "ts": 1781697790634
+      }
+    ],
+    "h1781690869222|2026-07-25": [
+      {
+        "ok": true,
+        "price": 3848,
+        "soldOut": false,
+        "ts": 1781697801075
+      }
+    ],
+    "h1781690869222|2026-07-26": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697809852
+      }
+    ],
+    "h1781690869222|2026-07-27": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697817972
+      }
+    ],
+    "h1781690869222|2026-07-28": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697827210
+      }
+    ],
+    "h1781690869222|2026-07-29": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697835716
+      }
+    ],
+    "h1781690869222|2026-07-30": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697844062
+      }
+    ],
+    "h1781690869222|2026-07-31": [
+      {
+        "ok": true,
+        "price": 3510,
+        "soldOut": false,
+        "ts": 1781697853004
+      }
+    ],
+    "h1781690869222|2026-08-01": [
+      {
+        "ok": true,
+        "price": null,
+        "soldOut": true,
+        "ts": 1781697873453
+      }
+    ],
+    "h1781690869222|2026-08-02": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697882568
+      }
+    ],
+    "h1781690869222|2026-08-03": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697890996
+      }
+    ],
+    "h1781690869222|2026-08-04": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697899582
+      }
+    ],
+    "h1781690869222|2026-08-05": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697908313
+      }
+    ],
+    "h1781690869222|2026-08-06": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697917479
+      }
+    ],
+    "h1781690869222|2026-08-07": [
+      {
+        "ok": true,
+        "price": 3510,
+        "soldOut": false,
+        "ts": 1781697927278
+      }
+    ],
+    "h1781690869222|2026-08-08": [
+      {
+        "ok": true,
+        "price": 4185,
+        "soldOut": false,
+        "ts": 1781697935961
+      }
+    ],
+    "h1781690869222|2026-08-09": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697945686
+      }
+    ],
+    "h1781690869222|2026-08-10": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697953603
+      }
+    ],
+    "h1781690869222|2026-08-11": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697962091
+      }
+    ],
+    "h1781690869222|2026-08-12": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697971904
+      }
+    ],
+    "h1781690869222|2026-08-13": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781697981253
+      }
+    ],
+    "h1781690869222|2026-08-14": [
+      {
+        "ok": true,
+        "price": 3510,
+        "soldOut": false,
+        "ts": 1781697989948
+      }
+    ],
+    "h1781690869222|2026-08-15": [
+      {
+        "ok": true,
+        "price": 4185,
+        "soldOut": false,
+        "ts": 1781697997990
+      }
+    ],
+    "h1781690869222|2026-08-16": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781698007891
+      }
+    ],
+    "h1781690869222|2026-08-17": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781698017662
+      }
+    ],
+    "h1781690869222|2026-08-18": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781698026400
+      }
+    ],
+    "h1781690869222|2026-08-19": [
+      {
+        "ok": true,
+        "price": 2835,
+        "soldOut": false,
+        "ts": 1781698035910
+      }
+    ],
+    "h1781690869222|2026-08-20": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781698044150
+      }
+    ],
+    "h1781690869222|2026-08-21": [
+      {
+        "ok": true,
+        "price": 3510,
+        "soldOut": false,
+        "ts": 1781698052431
+      }
+    ],
+    "h1781690869222|2026-08-22": [
+      {
+        "ok": true,
+        "price": 4185,
+        "soldOut": false,
+        "ts": 1781698060993
+      }
+    ],
+    "h1781690869222|2026-08-23": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781698070117
+      }
+    ],
+    "h1781690869222|2026-08-24": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781698078644
+      }
+    ],
+    "h1781690869222|2026-08-25": [
+      {
+        "ok": true,
+        "price": 2835,
+        "soldOut": false,
+        "ts": 1781698087025
+      }
+    ],
+    "h1781690869222|2026-08-26": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781698095180
+      }
+    ],
+    "h1781690869222|2026-08-27": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781698105339
+      }
+    ],
+    "h1781690869222|2026-08-28": [
+      {
+        "ok": true,
+        "price": 3510,
+        "soldOut": false,
+        "ts": 1781698113990
+      }
+    ],
+    "h1781690869222|2026-08-29": [
+      {
+        "ok": true,
+        "price": 3848,
+        "soldOut": false,
+        "ts": 1781698122077
+      }
+    ],
+    "h1781690869222|2026-08-30": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781698130006
+      }
+    ],
+    "h1781690869222|2026-08-31": [
+      {
+        "ok": true,
+        "price": 2498,
+        "soldOut": false,
+        "ts": 1781698137959
+      }
+    ],
+    "h1781690874008|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2125,
+        "soldOut": false,
+        "ts": 1781695034811
+      }
+    ],
+    "h1781690874008|2026-06-19": [
+      {
+        "ok": true,
+        "price": 3511,
+        "soldOut": false,
+        "ts": 1781695044451
+      }
+    ],
+    "h1781690874008|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3696,
+        "soldOut": false,
+        "ts": 1781695054000
+      }
+    ],
+    "h1781690874008|2026-06-21": [
+      {
+        "ok": true,
+        "price": 1756,
+        "soldOut": false,
+        "ts": 1781695063796
+      }
+    ],
+    "h1781690877477|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2600,
+        "soldOut": false,
+        "ts": 1781694889418
+      }
+    ],
+    "h1781690877477|2026-06-19": [
+      {
+        "ok": true,
+        "price": 4690,
+        "soldOut": false,
+        "ts": 1781694899372
+      }
+    ],
+    "h1781690877477|2026-06-20": [
+      {
+        "ok": true,
+        "price": 5025,
+        "soldOut": false,
+        "ts": 1781694912265
+      }
+    ],
+    "h1781690877477|2026-06-21": [
+      {
+        "ok": true,
+        "price": 2600,
+        "soldOut": false,
+        "ts": 1781694925232
+      }
+    ],
+    "h1781690881280|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2708,
+        "soldOut": false,
+        "ts": 1781694449354
+      }
+    ],
+    "h1781690881280|2026-06-19": [
+      {
+        "ok": true,
+        "price": 3624,
+        "soldOut": false,
+        "ts": 1781694458778
+      }
+    ],
+    "h1781690881280|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3934,
+        "soldOut": false,
+        "ts": 1781694468893
+      }
+    ],
+    "h1781690881280|2026-06-21": [
+      {
+        "ok": true,
+        "price": 2647,
+        "soldOut": false,
+        "ts": 1781694478330
+      }
+    ],
+    "h1781690884942|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2312,
+        "soldOut": false,
+        "ts": 1781695160621
+      }
+    ],
+    "h1781690884942|2026-06-19": [
+      {
+        "ok": true,
+        "price": null,
+        "soldOut": true,
+        "ts": 1781695168015
+      }
+    ],
+    "h1781690884942|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3784,
+        "soldOut": false,
+        "ts": 1781695177256
+      }
+    ],
+    "h1781690884942|2026-06-21": [
+      {
+        "ok": true,
+        "price": 2733,
+        "soldOut": false,
+        "ts": 1781695186883
+      }
+    ],
+    "h1781690891862|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2508,
+        "soldOut": false,
+        "ts": 1781694987811
+      }
+    ],
+    "h1781690891862|2026-06-19": [
+      {
+        "ok": true,
+        "price": 3990,
+        "soldOut": false,
+        "ts": 1781695001071
+      }
+    ],
+    "h1781690891862|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3181,
+        "soldOut": false,
+        "ts": 1781695013883
+      }
+    ],
+    "h1781690891862|2026-06-21": [
+      {
+        "ok": true,
+        "price": 2508,
+        "soldOut": false,
+        "ts": 1781695025195
+      }
+    ],
+    "h1781690894746|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2141,
+        "soldOut": false,
+        "ts": 1781694802335
+      }
+    ],
+    "h1781690894746|2026-06-19": [
+      {
+        "ok": true,
+        "price": 3402,
+        "soldOut": false,
+        "ts": 1781694814183
+      }
+    ],
+    "h1781690894746|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3402,
+        "soldOut": false,
+        "ts": 1781694826033
+      }
+    ],
+    "h1781690894746|2026-06-21": [
+      {
+        "ok": true,
+        "price": 1985,
+        "soldOut": false,
+        "ts": 1781694838860
+      }
+    ],
+    "h1781690897562|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2508,
+        "soldOut": false,
+        "ts": 1781694936882
+      }
+    ],
+    "h1781690897562|2026-06-19": [
+      {
+        "ok": true,
+        "price": 2907,
+        "soldOut": false,
+        "ts": 1781694948697
+      }
+    ],
+    "h1781690897562|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3181,
+        "soldOut": false,
+        "ts": 1781694961089
+      }
+    ],
+    "h1781690897562|2026-06-21": [
+      {
+        "ok": true,
+        "price": 2508,
+        "soldOut": false,
+        "ts": 1781694974648
+      }
+    ],
+    "h1781690904242|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2794,
+        "soldOut": false,
+        "ts": 1781694848991
+      }
+    ],
+    "h1781690904242|2026-06-19": [
+      {
+        "ok": true,
+        "price": 3570,
+        "soldOut": false,
+        "ts": 1781694856631
+      }
+    ],
+    "h1781690904242|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3881,
+        "soldOut": false,
+        "ts": 1781694868106
+      }
+    ],
+    "h1781690904242|2026-06-21": [
+      {
+        "ok": true,
+        "price": 2949,
+        "soldOut": false,
+        "ts": 1781694878857
+      }
+    ],
+    "h1781690909889|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2052,
+        "soldOut": false,
+        "ts": 1781695235765
+      }
+    ],
+    "h1781690909889|2026-06-19": [
+      {
+        "ok": true,
+        "price": 3420,
+        "soldOut": false,
+        "ts": 1781695244912
+      }
+    ],
+    "h1781690909889|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3466,
+        "soldOut": false,
+        "ts": 1781695253552
+      }
+    ],
+    "h1781690909889|2026-06-21": [
+      {
+        "ok": true,
+        "price": 1841,
+        "soldOut": false,
+        "ts": 1781695263780
+      }
+    ],
+    "h1781690913475|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2052,
+        "soldOut": false,
+        "ts": 1781695195887
+      }
+    ],
+    "h1781690913475|2026-06-19": [
+      {
+        "ok": true,
+        "price": 3420,
+        "soldOut": false,
+        "ts": 1781695205294
+      }
+    ],
+    "h1781690913475|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3466,
+        "soldOut": false,
+        "ts": 1781695214205
+      }
+    ],
+    "h1781690913475|2026-06-21": [
+      {
+        "ok": true,
+        "price": 1841,
+        "soldOut": false,
+        "ts": 1781695224181
+      }
+    ],
+    "h1781690920114|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2141,
+        "soldOut": false,
+        "ts": 1781694750238
+      }
+    ],
+    "h1781690920114|2026-06-19": [
+      {
+        "ok": true,
+        "price": 3402,
+        "soldOut": false,
+        "ts": 1781694761560
+      }
+    ],
+    "h1781690920114|2026-06-20": [
+      {
+        "ok": true,
+        "price": 3402,
+        "soldOut": false,
+        "ts": 1781694774631
+      }
+    ],
+    "h1781690920114|2026-06-21": [
+      {
+        "ok": true,
+        "price": 1985,
+        "soldOut": false,
+        "ts": 1781694787264
+      }
+    ],
+    "h1781690923002|2026-06-18": [
+      {
+        "ok": true,
+        "price": 1725,
+        "soldOut": false,
+        "ts": 1781695074408
+      }
+    ],
+    "h1781690923002|2026-06-19": [
+      {
+        "ok": true,
+        "price": 2550,
+        "soldOut": false,
+        "ts": 1781695085963
+      }
+    ],
+    "h1781690923002|2026-06-20": [
+      {
+        "ok": true,
+        "price": 2550,
+        "soldOut": false,
+        "ts": 1781695097436
+      }
+    ],
+    "h1781690923002|2026-06-21": [
+      {
+        "ok": true,
+        "price": 1725,
+        "soldOut": false,
+        "ts": 1781695109731
+      }
+    ],
+    "h1781690943530|2026-06-18": [
+      {
+        "ok": true,
+        "price": 1482,
+        "soldOut": false,
+        "ts": 1781694371581
+      }
+    ],
+    "h1781690943530|2026-06-19": [
+      {
+        "ok": true,
+        "price": 2394,
+        "soldOut": false,
+        "ts": 1781694380467
+      }
+    ],
+    "h1781690943530|2026-06-20": [
+      {
+        "ok": true,
+        "price": 2394,
+        "soldOut": false,
+        "ts": 1781694390550
+      }
+    ],
+    "h1781690943530|2026-06-21": [
+      {
+        "ok": true,
+        "price": 1740,
+        "soldOut": false,
+        "ts": 1781694399741
+      }
+    ],
+    "h1781690949130|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2640,
+        "soldOut": false,
+        "ts": 1781694573629
+      }
+    ],
+    "h1781690949130|2026-06-19": [
+      {
+        "ok": true,
+        "price": 4240,
+        "soldOut": false,
+        "ts": 1781694585088
+      }
+    ],
+    "h1781690949130|2026-06-20": [
+      {
+        "ok": true,
+        "price": 4560,
+        "soldOut": false,
+        "ts": 1781694597476
+      }
+    ],
+    "h1781690949130|2026-06-21": [
+      {
+        "ok": true,
+        "price": null,
+        "soldOut": true,
+        "ts": 1781694614473
+      }
+    ],
+    "h1781693455783|2026-06-18": [
+      {
+        "ok": true,
+        "price": 1482,
+        "soldOut": false,
+        "ts": 1781694334212
+      }
+    ],
+    "h1781693455783|2026-06-19": [
+      {
+        "ok": true,
+        "price": 2394,
+        "soldOut": false,
+        "ts": 1781694343162
+      }
+    ],
+    "h1781693455783|2026-06-20": [
+      {
+        "ok": true,
+        "price": 2394,
+        "soldOut": false,
+        "ts": 1781694352627
+      }
+    ],
+    "h1781693455783|2026-06-21": [
+      {
+        "ok": true,
+        "price": 2014,
+        "soldOut": false,
+        "ts": 1781694362195
+      }
+    ],
+    "h1781693458738|2026-06-17": [
+      {
+        "ok": true,
+        "price": 1740,
+        "soldOut": false,
+        "ts": 1781701439100
+      }
+    ],
+    "h1781693458738|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2014,
+        "soldOut": false,
+        "ts": 1781694296716
+      },
+      {
+        "ok": true,
+        "price": 1482,
+        "soldOut": false,
+        "ts": 1781701447671
+      }
+    ],
+    "h1781693458738|2026-06-19": [
+      {
+        "ok": true,
+        "price": 2394,
+        "soldOut": false,
+        "ts": 1781694306217
+      },
+      {
+        "ok": true,
+        "price": 2394,
+        "soldOut": false,
+        "ts": 1781701456143
+      }
+    ],
+    "h1781693458738|2026-06-20": [
+      {
+        "ok": true,
+        "price": 2394,
+        "soldOut": false,
+        "ts": 1781694314585
+      },
+      {
+        "ok": true,
+        "price": 2394,
+        "soldOut": false,
+        "ts": 1781701463532
+      }
+    ],
+    "h1781693458738|2026-06-21": [
+      {
+        "ok": true,
+        "price": 2014,
+        "soldOut": false,
+        "ts": 1781694323724
+      },
+      {
+        "ok": true,
+        "price": 2014,
+        "soldOut": false,
+        "ts": 1781701471264
+      }
+    ],
+    "h1781693458738|2026-06-22": [
+      {
+        "ok": true,
+        "price": 1792,
+        "soldOut": false,
+        "ts": 1781701479156
+      }
+    ],
+    "h1781693458738|2026-06-23": [
+      {
+        "ok": true,
+        "price": 1482,
+        "soldOut": false,
+        "ts": 1781701486805
+      }
+    ],
+    "h1781693458738|2026-06-24": [
+      {
+        "ok": true,
+        "price": 1482,
+        "soldOut": false,
+        "ts": 1781701495072
+      }
+    ],
+    "h1781693458738|2026-06-25": [
+      {
+        "ok": true,
+        "price": 1740,
+        "soldOut": false,
+        "ts": 1781701502996
+      }
+    ],
+    "h1781693458738|2026-06-26": [
+      {
+        "ok": true,
+        "price": 2900,
+        "soldOut": false,
+        "ts": 1781701511648
+      }
+    ],
+    "h1781693458738|2026-06-27": [
+      {
+        "ok": true,
+        "price": 3286,
+        "soldOut": false,
+        "ts": 1781701520002
+      }
+    ],
+    "h1781693458738|2026-06-28": [
+      {
+        "ok": true,
+        "price": 2014,
+        "soldOut": false,
+        "ts": 1781701529034
+      }
+    ],
+    "h1781693458738|2026-06-29": [
+      {
+        "ok": true,
+        "price": 1973,
+        "soldOut": false,
+        "ts": 1781701537008
+      }
+    ],
+    "h1781693458738|2026-06-30": [
+      {
+        "ok": true,
+        "price": 1852,
+        "soldOut": false,
+        "ts": 1781701544992
+      }
+    ],
+    "h1781693458738|2026-07-01": [
+      {
+        "ok": true,
+        "price": 1637,
+        "soldOut": false,
+        "ts": 1781701554179
+      }
+    ],
+    "h1781693458738|2026-07-02": [
+      {
+        "ok": true,
+        "price": 1482,
+        "soldOut": false,
+        "ts": 1781701562598
+      }
+    ],
+    "h1781693458738|2026-07-03": [
+      {
+        "ok": true,
+        "price": 3306,
+        "soldOut": false,
+        "ts": 1781701570100
+      }
+    ],
+    "h1781693458738|2026-07-04": [
+      {
+        "ok": true,
+        "price": 5922,
+        "soldOut": false,
+        "ts": 1781701578309
+      }
+    ],
+    "h1781693458738|2026-07-05": [
+      {
+        "ok": true,
+        "price": 1824,
+        "soldOut": false,
+        "ts": 1781701587340
+      }
+    ],
+    "h1781693458738|2026-07-06": [
+      {
+        "ok": true,
+        "price": 1976,
+        "soldOut": false,
+        "ts": 1781701597595
+      }
+    ],
+    "h1781693458738|2026-07-07": [
+      {
+        "ok": true,
+        "price": 1973,
+        "soldOut": false,
+        "ts": 1781701606679
+      }
+    ],
+    "h1781693458738|2026-07-08": [
+      {
+        "ok": true,
+        "price": 1740,
+        "soldOut": false,
+        "ts": 1781701615601
+      }
+    ],
+    "h1781693458738|2026-07-09": [
+      {
+        "ok": true,
+        "price": 1973,
+        "soldOut": false,
+        "ts": 1781701623774
+      }
+    ],
+    "h1781693458738|2026-07-10": [
+      {
+        "ok": true,
+        "price": 3480,
+        "soldOut": false,
+        "ts": 1781701631775
+      }
+    ],
+    "h1781693458738|2026-07-11": [
+      {
+        "ok": true,
+        "price": 4940,
+        "soldOut": false,
+        "ts": 1781701639294
+      }
+    ],
+    "h1781693458738|2026-07-12": [
+      {
+        "ok": true,
+        "price": 2052,
+        "soldOut": false,
+        "ts": 1781701647881
+      }
+    ],
+    "h1781693458738|2026-07-13": [
+      {
+        "ok": true,
+        "price": 1976,
+        "soldOut": false,
+        "ts": 1781701656231
+      }
+    ],
+    "h1781693458738|2026-07-14": [
+      {
+        "ok": true,
+        "price": 1821,
+        "soldOut": false,
+        "ts": 1781701665260
+      }
+    ],
+    "h1781693458738|2026-07-15": [
+      {
+        "ok": true,
+        "price": 1482,
+        "soldOut": false,
+        "ts": 1781701674931
+      }
+    ],
+    "h1781693458738|2026-07-16": [
+      {
+        "ok": true,
+        "price": 1577,
+        "soldOut": false,
+        "ts": 1781701684443
+      }
+    ],
+    "h1781693458738|2026-07-17": [
+      {
+        "ok": true,
+        "price": 2398,
+        "soldOut": false,
+        "ts": 1781701692801
+      }
+    ],
+    "h1781693458738|2026-07-18": [
+      {
+        "ok": true,
+        "price": 3638,
+        "soldOut": false,
+        "ts": 1781701701784
+      }
+    ],
+    "h1781693473140|2026-06-18": [
+      {
+        "ok": true,
+        "price": 2000,
+        "soldOut": false,
+        "ts": 1781695121363
+      }
+    ],
+    "h1781693473140|2026-06-19": [
+      {
+        "ok": true,
+        "price": 7200,
+        "soldOut": false,
+        "ts": 1781695133379
+      }
+    ],
+    "h1781693473140|2026-06-20": [
+      {
+        "ok": true,
+        "price": 7200,
+        "soldOut": false,
+        "ts": 1781695142360
+      }
+    ],
+    "h1781693473140|2026-06-21": [
+      {
+        "ok": true,
+        "price": 2560,
+        "soldOut": false,
+        "ts": 1781695151560
+      }
+    ]
+  },
+  "settings": {
+    "adults": 2,
+    "bandWidth": 500,
+    "children": 0,
+    "clusterTol": 500,
+    "colorOn": true,
+    "currency": "TWD",
+    "dateSort": "date_asc",
+    "nights": 1,
+    "rooms": 1
+  },
+  "_savedAt": 1781702367167,
+  "_v": 1
+}
