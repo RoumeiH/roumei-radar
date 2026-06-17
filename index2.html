@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>即時房價雷達 · 比價表</title>
+<style>
+  :root{ --blue:#0a5ad6; --line:#e3e7ee; --muted:#667; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:#f6f8fb; color:#16202c;
+    font-family:-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif; }
+  header{ background:#0b1f3a; color:#fff; padding:14px 16px; position:sticky; top:0; z-index:5; }
+  header h1{ margin:0; font-size:16px; }
+  header .sub{ font-size:11px; color:#9fb3d1; margin-top:3px; display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+  header button{ border:0; background:#1a3a5f; color:#fff; border-radius:7px; padding:5px 10px; font-size:12px; }
+  main{ padding:12px; }
+  #legend{ display:flex; flex-wrap:wrap; gap:8px; margin:0 0 12px; }
+  #legend span{ display:inline-flex; align-items:center; gap:4px; font-size:11px; color:#334; }
+  #legend i{ width:13px; height:13px; border-radius:3px; display:inline-block; border:1px solid #ccc; }
+  .tbl-wrap{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--line); border-radius:10px; background:#fff; }
+  table{ border-collapse:collapse; font-size:13px; min-width:max-content; width:100%; }
+  th,td{ border:1px solid var(--line); padding:9px 11px; text-align:center; white-space:nowrap; }
+  thead th{ position:sticky; top:0; background:#f0f3f8; z-index:2; font-weight:600; }
+  th.hotel,td.hotel{ position:sticky; left:0; background:#fff; text-align:left; z-index:1; max-width:150px; white-space:normal; }
+  thead th.hotel{ z-index:3; background:#f0f3f8; }
+  .price{ font-weight:600; }
+  .up{ color:#c0392b; } .down{ color:#1f9d55; }
+  .sold{ color:#999; font-size:12px; }
+  tr.grouphead td{ background:#0b1f3a; color:#fff; text-align:left; font-weight:600; position:sticky; left:0; }
+  tr.grouphead td .off{ color:#ffb3b3; font-weight:400; font-size:11px; }
+  tr.summary td{ border-top:2px solid var(--blue); font-weight:600; }
+  tr.summary td.hotel{ background:#f7f9fc; }
+  .empty{ color:var(--muted); font-size:13px; }
+  .note{ color:var(--muted); font-size:11px; margin-top:10px; line-height:1.6; }
+  #msg{ padding:20px; font-size:14px; color:var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <h1>🛰️ 即時房價雷達 · 比價表</h1>
+  <div class="sub"><span id="updated"></span><button id="reload">🔄 重新整理</button></div>
+</header>
+<main>
+  <div id="legend"></div>
+  <div id="content"><div id="msg">載入中…</div></div>
+  <p class="note">唯讀檢視,資料來自擴充每次備份的 radar-data.json。便宜偏綠、貴偏紅;每區底部為「主流均價」。</p>
+</main>
+
+<script>
+const DATA_URL = './radar-data.json';
+
+function avg(a){ return a.length ? a.reduce((s,x)=>s+x,0)/a.length : 0; }
+function colorForBand(b,minB,maxB){
+  if(maxB<=minB) return 'hsl(140,60%,90%)';
+  const t=Math.min(1,Math.max(0,(b-minB)/(maxB-minB)));
+  return `hsl(${Math.round(140-t*140)},72%,88%)`;
+}
+function clusterPrices(prices,tol){
+  const s=prices.slice().sort((a,b)=>a-b); const cs=[]; let cur=[];
+  s.forEach(p=>{ if(cur.length && p-cur[cur.length-1]>tol){cs.push(cur);cur=[];} cur.push(p); });
+  if(cur.length) cs.push(cur);
+  cs.sort((a,b)=> b.length-a.length || (avg(a)-avg(b)));
+  return cs[0]||[];
+}
+function esc(s){ return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+function latestOf(results,hid,d){
+  const h=results[`${hid}|${d}`]||[];
+  if(!h.length) return null;
+  return { last:h[h.length-1], prev:h.length>1?h[h.length-2]:null };
+}
+
+function render(data){
+  const hotels=data.hotels||[];
+  const groups=data.groups||[];
+  const results=data.results||{};
+  const set=data.settings||{};
+  const bandWidth=Math.max(1,+set.bandWidth||500);
+  const clusterTol=Math.max(1,+set.clusterTol||500);
+  const colorOn=set.colorOn!==false;
+  const dateSort=set.dateSort||'date_asc';
+
+  const updEl=document.getElementById('updated');
+  const ts=data._savedAt?new Date(data._savedAt):null;
+  updEl.textContent= ts? '最後更新 '+ts.toLocaleString('zh-TW') : '';
+
+  let dates=[...new Set(Object.keys(results).map(k=>k.split('|')[1]))];
+  const content=document.getElementById('content');
+  if(!hotels.length || !dates.length){ content.innerHTML='<div id="msg">還沒有抓到價格資料,請先在電腦的擴充上抓取一次並備份。</div>'; document.getElementById('legend').innerHTML=''; return; }
+
+  const allPrices=[];
+  hotels.forEach(h=>dates.forEach(d=>{ const r=latestOf(results,h.id,d); if(r&&r.last.price!=null) allPrices.push(r.last.price); }));
+  const minBand=allPrices.length?Math.floor(Math.min(...allPrices)/bandWidth):0;
+  const maxBand=allPrices.length?Math.floor(Math.max(...allPrices)/bandWidth):0;
+  const cellBg=p=>(colorOn&&p!=null)?` style="background:${colorForBand(Math.floor(p/bandWidth),minBand,maxBand)}"`:'';
+
+  const dayAvg={};
+  dates.forEach(d=>{ const ps=[]; hotels.forEach(h=>{ const r=latestOf(results,h.id,d); if(r&&r.last.price!=null) ps.push(r.last.price); }); dayAvg[d]=ps.length?Math.round(avg(clusterPrices(ps,clusterTol))):null; });
+  dates.sort((a,b)=>{
+    if(dateSort==='date_asc') return a<b?-1:1;
+    if(dateSort==='date_desc') return a<b?1:-1;
+    const va=dayAvg[a],vb=dayAvg[b];
+    if(va==null) return 1; if(vb==null) return -1;
+    return dateSort==='price_asc'? va-vb : vb-va;
+  });
+
+  const legend=document.getElementById('legend'); legend.innerHTML='';
+  if(colorOn&&allPrices.length){
+    for(let b=minBand;b<=maxBand;b++){
+      const lo=(b*bandWidth).toLocaleString(), hi=((b+1)*bandWidth).toLocaleString();
+      const sp=document.createElement('span'); sp.innerHTML=`<i style="background:${colorForBand(b,minBand,maxBand)}"></i>${lo}–${hi}`; legend.appendChild(sp);
+    }
+  }
+
+  const sections=groups.map(g=>({g,hotels:hotels.filter(h=>h.groupId===g.id)}));
+  const ungrouped=hotels.filter(h=>!groups.find(g=>g.id===h.groupId));
+  if(ungrouped.length) sections.push({g:{name:'未分類',fetch:true},hotels:ungrouped});
+
+  let html='<div class="tbl-wrap"><table><thead><tr><th class="hotel">飯店 \\ 日期</th>';
+  dates.forEach(d=>html+=`<th>${d}</th>`);
+  html+='</tr></thead><tbody>';
+
+  sections.forEach(sec=>{
+    if(!sec.hotels.length) return;
+    const off=sec.g.fetch===false?' <span class="off">· 已略過</span>':'';
+    html+=`<tr class="grouphead"><td colspan="${dates.length+1}">▦ ${esc(sec.g.name)} (${sec.hotels.length})${off}</td></tr>`;
+    sec.hotels.forEach(h=>{
+      html+=`<tr><td class="hotel">${esc(h.name)}</td>`;
+      dates.forEach(d=>{
+        const r=latestOf(results,h.id,d);
+        if(!r){ html+='<td class="empty">—</td>'; return; }
+        if(r.last.price==null){ html+='<td class="sold">售完</td>'; return; }
+        let ar=''; if(r.prev&&r.prev.price!=null){ if(r.last.price>r.prev.price)ar=' <span class="up">▲</span>'; else if(r.last.price<r.prev.price)ar=' <span class="down">▼</span>'; }
+        html+=`<td${cellBg(r.last.price)}><span class="price">${r.last.price.toLocaleString()}</span>${ar}</td>`;
+      });
+      html+='</tr>';
+    });
+    html+=`<tr class="summary"><td class="hotel">${esc(sec.g.name)}·主流均價</td>`;
+    dates.forEach(d=>{
+      const ps=[]; sec.hotels.forEach(h=>{ const r=latestOf(results,h.id,d); if(r&&r.last.price!=null) ps.push(r.last.price); });
+      if(!ps.length){ html+='<td class="empty">—</td>'; return; }
+      const cl=clusterPrices(ps,clusterTol); const a=Math.round(avg(cl));
+      html+=`<td${cellBg(a)}>${a.toLocaleString()}<br><span class="empty">${cl.length}/${ps.length}</span></td>`;
+    });
+    html+='</tr>';
+  });
+  html+='</tbody></table></div>';
+  content.innerHTML=html;
+}
+
+async function loadData(){
+  const content=document.getElementById('content');
+  content.innerHTML='<div id="msg">載入中…</div>';
+  try{
+    const r=await fetch(DATA_URL+'?t='+Date.now(),{cache:'no-store'});
+    if(!r.ok) throw new Error('讀取 radar-data.json 失敗('+r.status+')');
+    render(await r.json());
+  }catch(e){
+    content.innerHTML='<div id="msg">⚠ '+e.message+'<br><br>請確認:擴充已成功「推上去」一次、且本頁與 radar-data.json 在同一個網站。</div>';
+  }
+}
+document.getElementById('reload').addEventListener('click', loadData);
+loadData();
+</script>
+</body>
+</html>
