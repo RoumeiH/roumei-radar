@@ -41,6 +41,7 @@
   <div class="sub"><span id="updated"></span><button id="reload">🔄 重新整理</button></div>
 </header>
 <main>
+  <div id="eventLegend" class="note" style="display:none;margin-bottom:10px"></div>
   <div id="legend"></div>
   <div id="content"><div id="msg">載入中…</div></div>
   <p class="note">唯讀檢視,資料來自擴充每次備份的 radar-data.json。便宜偏綠、貴偏紅;每區底部為「主流均價」。</p>
@@ -50,6 +51,34 @@
 const DATA_URL = './radar-data.json';
 
 function avg(a){ return a.length ? a.reduce((s,x)=>s+x,0)/a.length : 0; }
+const WD=['日','一','二','三','四','五','六'];
+// 內建為離線備援;實際以線上 TaiwanCalendar(政府行事曆)自動更新為主。
+const TWHOL_FALLBACK={'2026-01-01':'元旦','2026-02-15':'小年夜','2026-02-16':'除夕','2026-02-17':'初一','2026-02-18':'初二','2026-02-19':'初三','2026-02-20':'春節補假','2026-02-27':'和平補假','2026-02-28':'和平紀念','2026-04-03':'兒童補假','2026-04-04':'兒童節','2026-04-05':'清明節','2026-04-06':'清明補假','2026-05-01':'勞動節','2026-06-19':'端午節','2026-09-25':'中秋節','2026-09-28':'教師節','2026-10-09':'國慶補假','2026-10-10':'國慶日','2026-10-25':'光復節','2026-10-26':'光復補假','2026-12-25':'行憲紀念','2027-01-01':'元旦'};
+let HOL={...TWHOL_FALLBACK};
+let EV={};
+async function fetchTwHolidays(years){
+  const map={};
+  for(const y of years){
+    try{ const r=await fetch(`https://cdn.jsdelivr.net/gh/ruyut/TaiwanCalendar/data/${y}.json`,{cache:'force-cache'});
+      if(r.ok){ (await r.json()).forEach(o=>{ if(o.isHoliday && o.description){ const d=`${o.date.slice(0,4)}-${o.date.slice(4,6)}-${o.date.slice(6,8)}`; map[d]=o.description; } }); }
+    }catch(e){}
+  }
+  return map;
+}
+function wdHeader(d){
+  const day=new Date(d+'T00:00:00').getDay();
+  const hol=HOL[d];
+  let c=(day===5||day===6)?'#c0392b':(day===0?'#2c6fb3':'#8a93a0');
+  if(hol) c='#c0392b';
+  let s=`${d}<br><span style="font-weight:400;font-size:11px;color:${c}">(${WD[day]})</span>`;
+  if(hol) s+=`<br><span style="font-size:10px;font-weight:700;color:#d35400">${hol}</span>`;
+  return s;
+}
+function evHeader(d){
+  const ev=EV[d]; if(!ev||!ev.length) return '';
+  const full=ev.join('、'); const sh=full.length>6?full.slice(0,6)+'…':full;
+  return `<br><span style="font-size:10px;font-weight:700;color:#7b2ff7" title="${esc(full)}">🎪${esc(sh)}</span>`;
+}
 function colorForBand(b,minB,maxB){
   if(maxB<=minB) return 'hsl(140,60%,90%)';
   const t=Math.min(1,Math.max(0,(b-minB)/(maxB-minB)));
@@ -74,6 +103,7 @@ function render(data){
   const hotels=data.hotels||[];
   const groups=data.groups||[];
   const results=data.results||{};
+  EV=data.events||{};
   const set=data.settings||{};
   const bandWidth=Math.max(1,+set.bandWidth||500);
   const clusterTol=Math.max(1,+set.clusterTol||500);
@@ -112,12 +142,17 @@ function render(data){
     }
   }
 
+  const evBox=document.getElementById('eventLegend');
+  const evDates=dates.filter(d=>EV[d]&&EV[d].length).sort();
+  if(evDates.length){ evBox.style.display=''; evBox.innerHTML='🎪 活動標記：'+evDates.map(d=>`<span style="color:#7b2ff7;font-weight:600">${d} ${esc(EV[d].join('、'))}</span>`).join('　｜　'); }
+  else { evBox.style.display='none'; evBox.innerHTML=''; }
+
   const sections=groups.map(g=>({g,hotels:hotels.filter(h=>h.groupId===g.id)}));
   const ungrouped=hotels.filter(h=>!groups.find(g=>g.id===h.groupId));
   if(ungrouped.length) sections.push({g:{name:'未分類',fetch:true},hotels:ungrouped});
 
   let html='<div class="tbl-wrap"><table><thead><tr><th class="hotel">飯店 \\ 日期</th>';
-  dates.forEach(d=>html+=`<th>${d}</th>`);
+  dates.forEach(d=>{ const bg = HOL[d] ? '#fff4e6' : ((EV[d]&&EV[d].length) ? '#f3ecff' : ''); html+=`<th${bg?` style="background:${bg}"`:''}>${wdHeader(d)}${evHeader(d)}</th>`; });
   html+='</tr></thead><tbody>';
 
   sections.forEach(sec=>{
@@ -154,7 +189,13 @@ async function loadData(){
   try{
     const r=await fetch(DATA_URL+'?t='+Date.now(),{cache:'no-store'});
     if(!r.ok) throw new Error('讀取 radar-data.json 失敗('+r.status+')');
-    render(await r.json());
+    const data=await r.json();
+    try{
+      const yrs=[...new Set(Object.keys(data.results||{}).map(k=>(k.split('|')[1]||'').slice(0,4)).filter(Boolean))];
+      const m=await fetchTwHolidays(yrs.length?yrs:[String(new Date().getFullYear())]);
+      HOL={...TWHOL_FALLBACK,...m};
+    }catch(e){}
+    render(data);
   }catch(e){
     content.innerHTML='<div id="msg">⚠ '+e.message+'<br><br>請確認:擴充已成功「推上去」一次、且本頁與 radar-data.json 在同一個網站。</div>';
   }
