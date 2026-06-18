@@ -112,7 +112,10 @@ function render(data){
 
   const updEl=document.getElementById('updated');
   const ts=data._savedAt?new Date(data._savedAt):null;
-  updEl.textContent= ts? '最後更新 '+ts.toLocaleString('zh-TW') : '';
+  let upd = ts? '最後更新 '+ts.toLocaleString('zh-TW') : '';
+  const lf=data.lastFetch;
+  if(lf&&lf.durationMs){ const s=Math.round(lf.durationMs/1000); const dur=s<60? s+' 秒' : `${Math.floor(s/60)} 分 ${s%60} 秒`; upd += (upd?'　·　':'')+'上次抓取耗時 '+dur; }
+  updEl.textContent=upd;
 
   let dates=[...new Set(Object.keys(results).map(k=>k.split('|')[1]))];
   const content=document.getElementById('content');
