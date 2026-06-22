@@ -118,6 +118,9 @@ function render(data){
   updEl.textContent=upd;
 
   let dates=[...new Set(Object.keys(results).map(k=>k.split('|')[1]))];
+  const _today=(()=>{const t=new Date();const p=n=>String(n).padStart(2,'0');return `${t.getFullYear()}-${p(t.getMonth()+1)}-${p(t.getDate())}`;})();
+  const _future=dates.filter(d=>d>=_today);
+  if(_future.length) dates=_future;  // 手機預設只看今天起;若無未來資料則顯示全部
   const content=document.getElementById('content');
   if(!hotels.length || !dates.length){ content.innerHTML='<div id="msg">還沒有抓到價格資料,請先在電腦的擴充上抓取一次並備份。</div>'; document.getElementById('legend').innerHTML=''; return; }
 
