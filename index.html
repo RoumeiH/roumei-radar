@@ -17,8 +17,8 @@
   #legend{ display:flex; flex-wrap:wrap; gap:8px; margin:0 0 12px; }
   #legend span{ display:inline-flex; align-items:center; gap:4px; font-size:11px; color:#334; }
   #legend i{ width:13px; height:13px; border-radius:3px; display:inline-block; border:1px solid #ccc; }
-  .tbl-wrap{ overflow-x:auto; -webkit-overflow-scrolling:touch; border:1px solid var(--line); border-radius:10px; background:#fff; }
-  table{ border-collapse:collapse; font-size:13px; min-width:max-content; width:100%; }
+  .tbl-wrap{ overflow:auto; max-height:72vh; -webkit-overflow-scrolling:touch; border:1px solid var(--line); border-radius:10px; background:#fff; }
+  table{ border-collapse:separate; border-spacing:0; font-size:13px; min-width:max-content; width:100%; }
   th,td{ border:1px solid var(--line); padding:9px 11px; text-align:center; white-space:nowrap; }
   thead th{ position:sticky; top:0; background:#f0f3f8; z-index:2; font-weight:600; }
   th.hotel,td.hotel{ position:sticky; left:0; background:#fff; text-align:left; z-index:1; max-width:150px; white-space:normal; }
