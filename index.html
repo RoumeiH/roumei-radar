@@ -28,7 +28,7 @@
   .sold{ color:#999; font-size:12px; }
   tr.grouphead td{ background:#0b1f3a; color:#fff; text-align:left; font-weight:600; position:sticky; left:0; }
   tr.grouphead td .off{ color:#ffb3b3; font-weight:400; font-size:11px; }
-  tr.summary td{ border-top:2px solid var(--blue); font-weight:600; }
+  tr.summary td{ border-bottom:2px solid var(--blue); font-weight:600; }
   tr.summary td.hotel{ background:#f7f9fc; }
   .empty{ color:var(--muted); font-size:13px; }
   .note{ color:var(--muted); font-size:11px; margin-top:10px; line-height:1.6; }
@@ -44,7 +44,7 @@
   <div id="eventLegend" class="note" style="display:none;margin-bottom:10px"></div>
   <div id="legend"></div>
   <div id="content"><div id="msg">載入中…</div></div>
-  <p class="note">唯讀檢視,資料來自擴充每次備份的 radar-data.json。便宜偏綠、貴偏紅;每區底部為「主流均價」。</p>
+  <p class="note">唯讀檢視,資料來自擴充每次備份的 radar-data.json。便宜偏綠、貴偏紅;每區第一行為「主流均價」。</p>
 </main>
 
 <script>
@@ -165,6 +165,14 @@ function render(data){
     if(!sec.hotels.length) return;
     const off=sec.g.fetch===false?' <span class="off">· 已略過</span>':'';
     html+=`<tr class="grouphead"><td colspan="${dates.length+1}">▦ ${esc(sec.g.name)} (${sec.hotels.length})${off}</td></tr>`;
+    html+=`<tr class="summary"><td class="hotel">${esc(sec.g.name)}·主流均價</td>`;
+    dates.forEach(d=>{
+      const ps=[]; sec.hotels.forEach(h=>{ const r=latestOf(results,h.id,d); if(r&&r.last.price!=null) ps.push(r.last.price); });
+      if(!ps.length){ html+='<td class="empty">—</td>'; return; }
+      const cl=clusterPrices(ps,clusterTol); const a=Math.round(avg(cl));
+      html+=`<td${cellBg(a)}>${a.toLocaleString()}<br><span class="empty">${cl.length}/${ps.length}</span></td>`;
+    });
+    html+='</tr>';
     sec.hotels.forEach(h=>{
       html+=`<tr><td class="hotel">${esc(h.name)}</td>`;
       dates.forEach(d=>{
@@ -176,14 +184,6 @@ function render(data){
       });
       html+='</tr>';
     });
-    html+=`<tr class="summary"><td class="hotel">${esc(sec.g.name)}·主流均價</td>`;
-    dates.forEach(d=>{
-      const ps=[]; sec.hotels.forEach(h=>{ const r=latestOf(results,h.id,d); if(r&&r.last.price!=null) ps.push(r.last.price); });
-      if(!ps.length){ html+='<td class="empty">—</td>'; return; }
-      const cl=clusterPrices(ps,clusterTol); const a=Math.round(avg(cl));
-      html+=`<td${cellBg(a)}>${a.toLocaleString()}<br><span class="empty">${cl.length}/${ps.length}</span></td>`;
-    });
-    html+='</tr>';
   });
   html+='</tbody></table></div>';
   content.innerHTML=html;
