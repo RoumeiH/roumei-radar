@@ -117,7 +117,7 @@ function latestOf(results,hid,d){
 }
 
 /* ---------- 歷史走勢 ---------- */
-let CUR_RESULTS={}, CUR_HOTELS=[];
+let CUR_RESULTS={}, CUR_HOTELS=[], CUR_SUPPLY={}, SUPPLY_TEMPLATE=null;
 function buildSparkline(points){
   const pts=points.filter(p=>p.price!=null);
   if(pts.length<2) return '<p class="empty">資料點不足,多抓幾次才看得到走勢。</p>';
@@ -140,6 +140,20 @@ function buildSparkline(points){
 }
 function openHistory(key){
   const [hid,date]=key.split('|');
+  if(hid==='supply'){
+    const hist=(CUR_SUPPLY[date]||[]).map(e=>({ts:e.ts, price:e.count}));
+    const city=(SUPPLY_TEMPLATE && SUPPLY_TEMPLATE.city) || '市場';
+    document.getElementById('modalTitle').textContent=`${city}供給量 · 入住 ${date}`;
+    document.getElementById('modalChart').innerHTML=buildSparkline(hist);
+    let srows=hist.slice().reverse().map(e=>{
+      const t=new Date(e.ts).toLocaleString('zh-TW',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});
+      const v=e.price==null?'<span class="sold">抓不到</span>':e.price.toLocaleString();
+      return `<tr><td style="text-align:left">${t}</td><td style="text-align:right">${v}</td></tr>`;
+    }).join('');
+    document.getElementById('modalList').innerHTML=`<table><thead><tr><th style="text-align:left">抓取時間</th><th style="text-align:right">住宿數</th></tr></thead><tbody>${srows}</tbody></table>`;
+    document.getElementById('modal').style.display='flex';
+    return;
+  }
   const hotel=CUR_HOTELS.find(h=>h.id===hid);
   const hist=CUR_RESULTS[key]||[];
   document.getElementById('modalTitle').textContent=`${hotel?hotel.name:'飯店'} · 入住 ${date}`;
@@ -161,6 +175,7 @@ function render(data){
   const groups=data.groups||[];
   const results=data.results||{};
   CUR_RESULTS=results; CUR_HOTELS=hotels;
+  CUR_SUPPLY=data.supplyCounts||{}; SUPPLY_TEMPLATE=data.supplyTemplate||null;
   EV=data.events||{};
   const set=data.settings||{};
   const bandWidth=Math.max(1,+set.bandWidth||500);
@@ -218,6 +233,18 @@ function render(data){
   let html='<div class="tbl-wrap"><table><thead><tr><th class="hotel">飯店 \\ 日期</th>';
   dates.forEach(d=>{ const bg = HOL[d] ? '#fff4e6' : ((EV[d]&&EV[d].length) ? '#f3ecff' : ''); html+=`<th${bg?` style="background:${bg}"`:''}>${wdHeader(d)}${evHeader(d)}</th>`; });
   html+='</tr></thead><tbody>';
+
+  if(SUPPLY_TEMPLATE && SUPPLY_TEMPLATE.url){
+    const supplyCity=SUPPLY_TEMPLATE.city||'市場';
+    html+=`<tr class="summary"><td class="hotel"><strong>🏙️ ${esc(supplyCity)}供給量</strong></td>`;
+    dates.forEach(d=>{
+      const arr=CUR_SUPPLY[d]||[];
+      const last=arr.length?arr[arr.length-1]:null;
+      if(!last||last.count==null){ html+='<td class="empty">—</td>'; return; }
+      html+=`<td class="cell-click" data-key="supply|${d}">${last.count.toLocaleString()}</td>`;
+    });
+    html+='</tr>';
+  }
 
   sections.forEach(sec=>{
     if(!sec.hotels.length) return;
