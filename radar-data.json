@@ -703,9 +703,9 @@
     }
   ],
   "lastFetch": {
-    "durationMs": 1263292,
-    "finishedAt": 1786850703582,
-    "total": 147
+    "durationMs": 587724,
+    "finishedAt": 1786871629920,
+    "total": 49
   },
   "results": {
     "h1781690700809|2026-06-17": [
@@ -38760,6 +38760,14 @@
         "soldOut": false,
         "total": 2700,
         "ts": 1786849542825
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2700,
+        "soldOut": false,
+        "total": 2700,
+        "ts": 1786871093872
       }
     ],
     "h1781769126774|2026-08-17": [
@@ -52606,6 +52614,14 @@
         "soldOut": false,
         "total": 2300,
         "ts": 1786850231148
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2300,
+        "soldOut": false,
+        "total": 2300,
+        "ts": 1786871421539
       }
     ],
     "h1781769141053|2026-08-17": [
@@ -66236,6 +66252,14 @@
         "soldOut": false,
         "total": 2342,
         "ts": 1786849950090
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2342,
+        "soldOut": false,
+        "total": 2342,
+        "ts": 1786871290591
       }
     ],
     "h1781769146685|2026-08-17": [
@@ -80230,6 +80254,14 @@
         "soldOut": false,
         "total": 2466,
         "ts": 1786849493867
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2349,
+        "soldOut": false,
+        "total": 2349,
+        "ts": 1786871073144
       }
     ],
     "h1781769152859|2026-08-17": [
@@ -94572,6 +94604,14 @@
         "soldOut": true,
         "total": null,
         "ts": 1786849718114
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": null,
+        "soldOut": true,
+        "total": null,
+        "ts": 1786871177532
       }
     ],
     "h1781769163349|2026-08-17": [
@@ -108186,6 +108226,14 @@
         "soldOut": false,
         "total": 2600,
         "ts": 1786850025688
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2400,
+        "soldOut": false,
+        "total": 2400,
+        "ts": 1786871325083
       }
     ],
     "h1781769167581|2026-08-17": [
@@ -121816,6 +121864,14 @@
         "soldOut": false,
         "total": 1320,
         "ts": 1786849976027
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1320,
+        "soldOut": false,
+        "total": 1320,
+        "ts": 1786871302006
       }
     ],
     "h1781769171454|2026-08-17": [
@@ -135810,6 +135866,14 @@
         "soldOut": false,
         "total": 2653,
         "ts": 1786849518212
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2653,
+        "soldOut": false,
+        "total": 2653,
+        "ts": 1786871083555
       }
     ],
     "h1781769175938|2026-08-17": [
@@ -149808,6 +149872,14 @@
         "soldOut": false,
         "total": 3523,
         "ts": 1786849924157
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 3591,
+        "soldOut": false,
+        "total": 3591,
+        "ts": 1786871278370
       }
     ],
     "h1781769187957|2026-08-17": [
@@ -163438,6 +163510,14 @@
         "soldOut": false,
         "total": 4160,
         "ts": 1786849793328
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 4160,
+        "soldOut": false,
+        "total": 4160,
+        "ts": 1786871216377
       }
     ],
     "h1781769194638|2026-08-17": [
@@ -177076,6 +177156,14 @@
         "soldOut": false,
         "total": 1210,
         "ts": 1786850179683
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1584,
+        "soldOut": false,
+        "total": 1584,
+        "ts": 1786871396365
       }
     ],
     "h1781769220749|2026-08-17": [
@@ -190650,6 +190738,14 @@
         "soldOut": false,
         "total": 2074,
         "ts": 1786850204717
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2074,
+        "soldOut": false,
+        "total": 2074,
+        "ts": 1786871409919
       }
     ],
     "h1781769226450|2026-08-17": [
@@ -204304,6 +204400,14 @@
         "soldOut": false,
         "total": 2140,
         "ts": 1786849640255
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2145,
+        "soldOut": false,
+        "total": 2145,
+        "ts": 1786871142193
       }
     ],
     "h1781769230454|2026-08-17": [
@@ -217942,6 +218046,14 @@
         "soldOut": false,
         "total": 1746,
         "ts": 1786850104840
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1746,
+        "soldOut": false,
+        "total": 1746,
+        "ts": 1786871359491
       }
     ],
     "h1781769235812|2026-08-17": [
@@ -231596,6 +231708,14 @@
         "soldOut": false,
         "total": 2399,
         "ts": 1786849589322
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2499,
+        "soldOut": false,
+        "total": 2499,
+        "ts": 1786871116267
       }
     ],
     "h1781769241917|2026-08-17": [
@@ -245410,6 +245530,14 @@
         "soldOut": false,
         "total": 2000,
         "ts": 1786849564455
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2000,
+        "soldOut": false,
+        "total": 2000,
+        "ts": 1786871104033
       }
     ],
     "h1781769250893|2026-08-17": [
@@ -259136,6 +259264,14 @@
         "soldOut": false,
         "total": 3238,
         "ts": 1786850078101
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 3238,
+        "soldOut": false,
+        "total": 3238,
+        "ts": 1786871349190
       }
     ],
     "h1781777764851|2026-08-17": [
@@ -272614,6 +272750,14 @@
         "soldOut": false,
         "total": 1725,
         "ts": 1786850419093
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1725,
+        "soldOut": false,
+        "total": 1725,
+        "ts": 1786871508189
       }
     ],
     "h1781777769931|2026-08-17": [
@@ -286252,6 +286396,14 @@
         "soldOut": false,
         "total": 4200,
         "ts": 1786849767286
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 4200,
+        "soldOut": false,
+        "total": 4200,
+        "ts": 1786871204763
       }
     ],
     "h1781777773154|2026-08-17": [
@@ -299882,6 +300034,14 @@
         "soldOut": false,
         "total": 2520,
         "ts": 1786849844757
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2160,
+        "soldOut": false,
+        "total": 2160,
+        "ts": 1786871240780
       }
     ],
     "h1781777776380|2026-08-17": [
@@ -313360,6 +313520,14 @@
         "soldOut": false,
         "total": 1598,
         "ts": 1786850335726
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1598,
+        "soldOut": false,
+        "total": 1598,
+        "ts": 1786871468296
       }
     ],
     "h1781777780227|2026-08-17": [
@@ -326974,6 +327142,14 @@
         "soldOut": false,
         "total": 3048,
         "ts": 1786850001021
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 3190,
+        "soldOut": false,
+        "total": 3190,
+        "ts": 1786871313136
       }
     ],
     "h1781777783435|2026-08-17": [
@@ -340628,6 +340804,14 @@
         "soldOut": false,
         "total": 2888,
         "ts": 1786849743206
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2888,
+        "soldOut": false,
+        "total": 2888,
+        "ts": 1786871191145
       }
     ],
     "h1781777786558|2026-08-17": [
@@ -354258,6 +354442,14 @@
         "soldOut": false,
         "total": 2340,
         "ts": 1786849819201
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2340,
+        "soldOut": false,
+        "total": 2340,
+        "ts": 1786871228474
       }
     ],
     "h1781777792635|2026-08-17": [
@@ -367736,6 +367928,14 @@
         "soldOut": false,
         "total": 1455,
         "ts": 1786850445681
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1455,
+        "soldOut": false,
+        "total": 1455,
+        "ts": 1786871520940
       }
     ],
     "h1781777795587|2026-08-17": [
@@ -381866,6 +382066,14 @@
         "soldOut": false,
         "total": 2430,
         "ts": 1786849470143
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2430,
+        "soldOut": false,
+        "total": 2430,
+        "ts": 1786871061585
       }
     ],
     "h1781777799652|2026-08-17": [
@@ -396368,6 +396576,14 @@
         "soldOut": true,
         "total": null,
         "ts": 1786849663998
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1670,
+        "soldOut": false,
+        "total": 1670,
+        "ts": 1786871154682
       }
     ],
     "h1781777837466|2026-08-17": [
@@ -409982,6 +410198,14 @@
         "soldOut": false,
         "total": 2767,
         "ts": 1786850051307
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 3244,
+        "soldOut": false,
+        "total": 3244,
+        "ts": 1786871337290
       }
     ],
     "h1781777923339|2026-08-17": [
@@ -423620,6 +423844,14 @@
         "soldOut": false,
         "total": 1800,
         "ts": 1786850155332
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1800,
+        "soldOut": false,
+        "total": 1800,
+        "ts": 1786871385306
       }
     ],
     "h1781777994921|2026-08-17": [
@@ -437274,6 +437506,14 @@
         "soldOut": false,
         "total": 2949,
         "ts": 1786849689119
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 4728,
+        "soldOut": false,
+        "total": 4728,
+        "ts": 1786871166299
       }
     ],
     "h1781777998976|2026-08-17": [
@@ -450752,6 +450992,14 @@
         "soldOut": false,
         "total": 2314,
         "ts": 1786850525065
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2314,
+        "soldOut": false,
+        "total": 2314,
+        "ts": 1786871556435
       }
     ],
     "h1781778111232|2026-08-17": [
@@ -464230,6 +464478,14 @@
         "soldOut": false,
         "total": 1802,
         "ts": 1786850550336
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": null,
+        "soldOut": true,
+        "total": null,
+        "ts": 1786871568091
       }
     ],
     "h1781778257106|2026-08-17": [
@@ -477708,6 +477964,14 @@
         "soldOut": false,
         "total": 1850,
         "ts": 1786850282023
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1850,
+        "soldOut": false,
+        "total": 1850,
+        "ts": 1786871446045
       }
     ],
     "h1781778261414|2026-08-17": [
@@ -491338,6 +491602,14 @@
         "soldOut": false,
         "total": 2805,
         "ts": 1786849896931
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2805,
+        "soldOut": false,
+        "total": 2805,
+        "ts": 1786871266383
       }
     ],
     "h1781778269321|2026-08-17": [
@@ -504816,6 +505088,14 @@
         "soldOut": false,
         "total": 1880,
         "ts": 1786850362101
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": null,
+        "soldOut": true,
+        "total": null,
+        "ts": 1786871479532
       }
     ],
     "h1781778279657|2026-08-17": [
@@ -518294,6 +518574,14 @@
         "soldOut": false,
         "total": 1812,
         "ts": 1786850576589
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1812,
+        "soldOut": false,
+        "total": 1812,
+        "ts": 1786871580205
       }
     ],
     "h1781778282729|2026-08-17": [
@@ -531772,6 +532060,14 @@
         "soldOut": false,
         "total": 2089,
         "ts": 1786850256851
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1533,
+        "soldOut": false,
+        "total": 1533,
+        "ts": 1786871433938
       }
     ],
     "h1781778285705|2026-08-17": [
@@ -545250,6 +545546,14 @@
         "soldOut": false,
         "total": 1766,
         "ts": 1786850472213
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": null,
+        "soldOut": true,
+        "total": null,
+        "ts": 1786871532492
       }
     ],
     "h1781778289121|2026-08-17": [
@@ -558728,6 +559032,14 @@
         "soldOut": false,
         "total": 1780,
         "ts": 1786850389244
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1580,
+        "soldOut": false,
+        "total": 1580,
+        "ts": 1786871493603
       }
     ],
     "h1781778292489|2026-08-17": [
@@ -572206,6 +572518,14 @@
         "soldOut": false,
         "total": 1301,
         "ts": 1786850602986
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1301,
+        "soldOut": false,
+        "total": 1301,
+        "ts": 1786871593147
       }
     ],
     "h1781778299586|2026-08-17": [
@@ -585684,6 +586004,14 @@
         "soldOut": false,
         "total": 1335,
         "ts": 1786850309478
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1335,
+        "soldOut": false,
+        "total": 1335,
+        "ts": 1786871456742
       }
     ],
     "h1781778302786|2026-08-17": [
@@ -599162,6 +599490,14 @@
         "soldOut": true,
         "total": null,
         "ts": 1786850498711
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1118,
+        "soldOut": false,
+        "total": 1118,
+        "ts": 1786871543692
       }
     ],
     "h1781778414338|2026-08-17": [
@@ -613330,6 +613666,14 @@
         "soldOut": false,
         "total": 2309,
         "ts": 1786849447089
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2309,
+        "soldOut": false,
+        "total": 2309,
+        "ts": 1786871050619
       }
     ],
     "h1781778819496|2026-08-17": [
@@ -627828,6 +628172,14 @@
         "soldOut": false,
         "total": 1800,
         "ts": 1786850130713
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1800,
+        "soldOut": false,
+        "total": 1800,
+        "ts": 1786871371994
       }
     ],
     "h1781779123142|2026-08-17": [
@@ -641458,6 +641810,14 @@
         "soldOut": false,
         "total": 2646,
         "ts": 1786849870498
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 2646,
+        "soldOut": false,
+        "total": 2646,
+        "ts": 1786871253623
       }
     ],
     "h1781779250700|2026-08-17": [
@@ -655112,6 +655472,14 @@
         "soldOut": false,
         "total": 3069,
         "ts": 1786849614255
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 3069,
+        "soldOut": false,
+        "total": 3069,
+        "ts": 1786871128273
       }
     ],
     "h1781779443833|2026-08-17": [
@@ -665498,6 +665866,14 @@
         "soldOut": false,
         "total": 1366,
         "ts": 1786850632762
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1366,
+        "soldOut": false,
+        "total": 1366,
+        "ts": 1786871606546
       }
     ],
     "h1783671266839|2026-08-17": [
@@ -673382,6 +673758,14 @@
         "soldOut": false,
         "total": 1838,
         "ts": 1786850660842
+      },
+      {
+        "nights": 1,
+        "ok": true,
+        "price": 1838,
+        "soldOut": false,
+        "total": 1838,
+        "ts": 1786871618491
       }
     ],
     "h1783671270504|2026-08-17": [
@@ -676765,8 +677149,8 @@
       "days": 1,
       "enabled": true,
       "id": "s1785405678330504",
-      "lastRun": 1786784860215,
-      "lastRunDay": "2026-08-15",
+      "lastRun": 1786871629930,
+      "lastRunDay": "2026-08-16",
       "start": "today",
       "time": "17:00",
       "weekdays": [
@@ -678678,6 +679062,10 @@
       {
         "count": 542,
         "ts": 1786850690865
+      },
+      {
+        "count": 511,
+        "ts": 1786871628231
       }
     ],
     "2026-08-17": [
@@ -680450,6 +680838,6 @@
     "city": "台北",
     "url": "https://www.booking.com/searchresults.zh-tw.html?ss=%E5%8F%B0%E5%8C%97&ssne=%E5%8F%B0%E5%8C%97&ssne_untouched=%E5%8F%B0%E5%8C%97&highlighted_hotels=173172&label=metagha-link-LUTW-hotel-173172_dev-desktop_los-1_bw-0_dow-Thursday_defdate-1_room-0_gstadt-2_rateid-dg_aud-0_gacid-21404718441_mcid-10_ppa-0_clrid-0_ad-1_gstkid-0_checkin-20260716_ppt-G_lp-2158_r-443556355924384260&aid=1288258&lang=zh-tw&sb=1&src_elem=sb&src=searchresults&dest_id=-2637882&dest_type=city&checkin=2026-07-16&checkout=2026-07-17&group_adults=2&no_rooms=1&group_children=0"
   },
-  "_savedAt": 1786850704296,
+  "_savedAt": 1786871631732,
   "_v": 1
 }
